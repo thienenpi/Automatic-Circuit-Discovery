@@ -15,8 +15,10 @@ set -euo pipefail
 
 # ------------------------------- edit these -------------------------------
 CONDA_ENV=acdc
-PARTITION_CPU=cpu
-PARTITION_GPU=gpu
+# Partition names differ per cluster: check `sinfo -s` (* marks the default) and
+# `sinfo -O partition,gres` for the ones with GPUs. Leave empty to use the default.
+PARTITION_CPU=
+PARTITION_GPU=
 GPUS=gpu:1
 CPUS=4
 MEM=32G
@@ -43,7 +45,7 @@ submit() {                   # $1 name, $2 partition, $3 gres (empty for CPU), $
         echo "[$part] $cmd"
         return 0
     fi
-    sbatch -J "$name" -p "$part" ${gres:+--gres="$gres"} \
+    sbatch -J "$name" ${part:+-p "$part"} ${gres:+--gres="$gres"} \
         --cpus-per-task="$CPUS" --mem="$MEM" --time="$time" \
         --output="slurm/logs/%x_%j.out" --error="slurm/logs/%x_%j.err" \
         --wrap "eval \"\$(conda shell.bash hook)\"; conda activate $CONDA_ENV; \
