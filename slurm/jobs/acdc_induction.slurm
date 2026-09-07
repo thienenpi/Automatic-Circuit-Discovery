@@ -35,11 +35,14 @@ export WANDB_DIR="$SLURM_SUBMIT_DIR/slurm/wandb"
 
 echo "Job $SLURM_JOB_ID on $(hostname); started $(date)"
 
-# The 84 commands do not pass --wandb-entity-name, so acdc/main.py:155 falls back to the
-# authors' entity (remix_school-of-rock) and wandb.init in
-# acdc/TLACDCExperiment.py:155-156 will be rejected. Patch that default to read
-# WANDB_ENTITY before running this job.
-export WANDB_ENTITY=CHANGE_ME
+# The 84 commands built by launch_induction.py do not pass --wandb-entity-name, so
+# acdc/main.py:155 reads WANDB_ENTITY instead; without it the runs would go to the authors'
+# entity. The group is fixed by experiments/launch_induction.py:26 to "adria-induction-3",
+# and the other jobs reuse that name so all three methods end up in one group.
+if [ -z "$WANDB_ENTITY" ]; then
+    echo "WANDB_ENTITY is not set: add 'export WANDB_ENTITY=<your wandb user or team>' to ~/.bashrc" >&2
+    exit 1
+fi
 
 python experiments/launch_induction.py
 

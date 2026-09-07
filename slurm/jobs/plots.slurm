@@ -30,16 +30,20 @@ export PYTHONPATH="$SLURM_SUBMIT_DIR"
 export OMP_NUM_THREADS="$SLURM_CPUS_PER_TASK"
 export MPLBACKEND=Agg
 
+# roc_plot_generator.py queries the authors' entity and their historical group names by
+# default; these two variables redirect it to the runs the other jobs produced.
+if [ -z "$WANDB_ENTITY" ]; then
+    echo "WANDB_ENTITY is not set: add 'export WANDB_ENTITY=<your wandb user or team>' to ~/.bashrc" >&2
+    exit 1
+fi
+export ACDC_WANDB_GROUP=adria-induction-3
+
 echo "Job $SLURM_JOB_ID on $(hostname); started $(date)"
 
 # roc_plot_generator.py:210 skips a target whose JSON already exists, and the repo ships
 # 32 of the authors' JSON files. Remove the induction ones first if you want your own runs
 # summarised instead:
 #   rm -f experiments/results/plots_data/*induction*.json
-#
-# It also hard-codes the authors' W&B entity and group names
-# (notebooks/roc_plot_generator.py:216-250 and :367-372), so it must be pointed at your
-# entity/group before this job can see your runs.
 make -C experiments/results/plots_data induction || exit 1
 
 python notebooks/make_plotly_plots.py

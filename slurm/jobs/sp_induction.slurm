@@ -19,8 +19,9 @@
 # Usage: sbatch slurm/jobs/sp_induction.slurm
 
 LAMBDAS=(0.01 0.1 0.5 1 2 5 10 30 50 100 250)
-WANDB_ENTITY=CHANGE_ME
-WANDB_GROUP=acdc-repro
+# Same group as the ACDC job, whose name is fixed by experiments/launch_induction.py:26,
+# so one group holds all three methods and the plots job needs a single group override.
+WANDB_GROUP=adria-induction-3
 
 cd "$SLURM_SUBMIT_DIR" || exit 1
 mkdir -p slurm/logs slurm/wandb
@@ -37,6 +38,11 @@ exec > "$LOG" 2>&1
 module purge 2>/dev/null || true
 source ~/.bashrc
 conda activate acdc
+
+if [ -z "$WANDB_ENTITY" ]; then
+    echo "WANDB_ENTITY is not set: add 'export WANDB_ENTITY=<your wandb user or team>' to ~/.bashrc" >&2
+    exit 1
+fi
 
 export PYTHONPATH="$SLURM_SUBMIT_DIR"
 export OMP_NUM_THREADS="$SLURM_CPUS_PER_TASK"

@@ -152,7 +152,7 @@ parser.add_argument('--first-cache-cpu', type=str, required=False, default="True
 parser.add_argument('--second-cache-cpu', type=str, required=False, default="True", help='Value for SECOND_CACHE_CPU (the old name for the `corrupted_cache`)')
 parser.add_argument('--zero-ablation', action='store_true', help='Use zero ablation')
 parser.add_argument('--using-wandb', action='store_true', help='Use wandb')
-parser.add_argument('--wandb-entity-name', type=str, required=False, default="remix_school-of-rock", help='Value for WANDB_ENTITY_NAME')
+parser.add_argument('--wandb-entity-name', type=str, required=False, default=os.environ.get("WANDB_ENTITY", "remix_school-of-rock"), help='Value for WANDB_ENTITY_NAME')
 parser.add_argument('--wandb-group-name', type=str, required=False, default="default", help='Value for WANDB_GROUP_NAME')
 parser.add_argument('--wandb-project-name', type=str, required=False, default="acdc", help='Value for WANDB_PROJECT_NAME')
 parser.add_argument('--wandb-run-name', type=str, required=False, default=None, help='Value for WANDB_RUN_NAME')

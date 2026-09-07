@@ -374,6 +374,25 @@ else:
 if RESET_NETWORK and TASK != "greaterthan" and not TASK.startswith("tracr"):
     SP_PRE_RUN_FILTER["group"] = "tracr-shuffled-redo"
 
+# Everything above points at the authors' own runs. A reproduction logs to its own account,
+# so let the environment redirect the queries: WANDB_ENTITY replaces the entity part of the
+# project paths, ACDC_WANDB_GROUP replaces every group filter (including the "$or" over
+# several of the authors' groups, which only exists to cover their sweep history).
+if os.environ.get("WANDB_ENTITY"):
+    entity = os.environ["WANDB_ENTITY"]
+    ACDC_PROJECT_NAME = f"{entity}/{ACDC_PROJECT_NAME.split('/', 1)[1]}"
+    SP_PROJECT_NAME = f"{entity}/{SP_PROJECT_NAME.split('/', 1)[1]}"
+    SIXTEEN_HEADS_PROJECT_NAME = f"{entity}/{SIXTEEN_HEADS_PROJECT_NAME.split('/', 1)[1]}"
+
+if os.environ.get("ACDC_WANDB_GROUP"):
+    group = os.environ["ACDC_WANDB_GROUP"]
+    if "$or" in ACDC_PRE_RUN_FILTER:
+        # each branch already carries the config filters, so keep one and set the group
+        ACDC_PRE_RUN_FILTER = dict(ACDC_PRE_RUN_FILTER["$or"][0])
+    ACDC_PRE_RUN_FILTER["group"] = group
+    SP_PRE_RUN_FILTER["group"] = group
+    SIXTEEN_HEADS_PRE_RUN_FILTER["group"] = group
+
 if RESET_NETWORK:
     reset_network(TASK, DEVICE, things.tl_model)
     gc.collect()

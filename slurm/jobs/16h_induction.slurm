@@ -17,8 +17,8 @@
 # Usage: sbatch slurm/jobs/16h_induction.slurm
 
 METRICS=(kl_div nll)
-WANDB_ENTITY=CHANGE_ME
-WANDB_GROUP=acdc-repro
+# Same group as the ACDC job (name fixed by experiments/launch_induction.py:26).
+WANDB_GROUP=adria-induction-3
 
 cd "$SLURM_SUBMIT_DIR" || exit 1
 mkdir -p slurm/logs slurm/wandb
@@ -35,6 +35,11 @@ exec > "$LOG" 2>&1
 module purge 2>/dev/null || true
 source ~/.bashrc
 conda activate acdc
+
+if [ -z "$WANDB_ENTITY" ]; then
+    echo "WANDB_ENTITY is not set: add 'export WANDB_ENTITY=<your wandb user or team>' to ~/.bashrc" >&2
+    exit 1
+fi
 
 # The script imports the vendored TransformerLens copy under subnetwork_probing/, so the
 # repo root has to be on PYTHONPATH.
