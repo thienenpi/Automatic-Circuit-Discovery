@@ -25,7 +25,7 @@ exec > "$LOG" 2>&1
 
 module purge 2>/dev/null || true
 source ~/.bashrc
-conda activate acdc
+conda activate python310
 
 # experiments/launch_induction.py imports experiments.launcher, so the repo root must
 # be importable; it is not installed as a top-level package.

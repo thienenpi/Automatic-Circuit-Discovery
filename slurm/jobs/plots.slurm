@@ -24,7 +24,7 @@ exec > "$LOG" 2>&1
 
 module purge 2>/dev/null || true
 source ~/.bashrc
-conda activate acdc
+conda activate python310
 
 export PYTHONPATH="$SLURM_SUBMIT_DIR"
 export OMP_NUM_THREADS="$SLURM_CPUS_PER_TASK"

@@ -34,7 +34,7 @@ exec > "$LOG" 2>&1
 
 module purge 2>/dev/null || true
 source ~/.bashrc
-conda activate acdc
+conda activate python310
 
 if [ -z "$WANDB_ENTITY" ]; then
     echo "WANDB_ENTITY is not set: add 'export WANDB_ENTITY=<your wandb user or team>' to ~/.bashrc" >&2
