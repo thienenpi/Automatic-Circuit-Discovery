@@ -29,7 +29,7 @@ eval "$(conda shell.bash hook)"
 if conda env list | awk '{print $1}' | grep -qx "$ENV_NAME"; then
     echo "Conda env '$ENV_NAME' already exists; removing it."
     conda deactivate 2>/dev/null || true
-    conda env remove -y -n "$ENV_NAME" --all
+    conda env remove -y -n "$ENV_NAME"
 fi
 
 conda create -y -n "$ENV_NAME" python=3.10
