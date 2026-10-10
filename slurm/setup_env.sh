@@ -39,6 +39,8 @@ conda install -y -c conda-forge graphviz pkg-config
 export CFLAGS="-I${CONDA_PREFIX}/include"
 export LDFLAGS="-L${CONDA_PREFIX}/lib"
 export PKG_CONFIG_PATH="${CONDA_PREFIX}/lib/pkgconfig:${PKG_CONFIG_PATH:-}"
+export WANDB_API_KEY=
+export WANDB_ENTITY=thiennp3-hcmus
 
 pip install --upgrade pip
 pip install poetry
