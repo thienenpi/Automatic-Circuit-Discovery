@@ -34,10 +34,15 @@ exec > "$LOG" 2>&1
 
 module purge 2>/dev/null || true
 source ~/.bashrc
-conda activate python310
+conda activate acdc
 
 if [ -z "$WANDB_ENTITY" ]; then
     echo "WANDB_ENTITY is not set: add 'export WANDB_ENTITY=<your wandb user or team>' to ~/.bashrc" >&2
+    exit 1
+fi
+
+if [ -z "$WANDB_API_KEY" ]; then
+    echo "WANDB_API_KEY is not set: wandb 0.13.11 rejects the new wandb_v1_ key format, so 'wandb login' cannot store it; export WANDB_API_KEY in ~/.bashrc instead" >&2
     exit 1
 fi
 
@@ -50,7 +55,7 @@ export WANDB_DIR="$SLURM_SUBMIT_DIR/slurm/wandb"
 echo "Job $SLURM_JOB_ID on $(hostname); metric=$METRIC; started $(date)"
 nvidia-smi || true
 
-python experiments/launch_sixteen_heads.py \
+poetry run python experiments/launch_sixteen_heads.py \
     --task=induction --metric="$METRIC" \
     --device=cuda --reset-network=0 \
     --torch-num-threads="$SLURM_CPUS_PER_TASK" \

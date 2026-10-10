@@ -25,7 +25,7 @@ exec > "$LOG" 2>&1
 
 module purge 2>/dev/null || true
 source ~/.bashrc
-conda activate python310
+conda activate acdc
 
 # experiments/launch_induction.py imports experiments.launcher, so the repo root must
 # be importable; it is not installed as a top-level package.
@@ -44,6 +44,11 @@ if [ -z "$WANDB_ENTITY" ]; then
     exit 1
 fi
 
-python experiments/launch_induction.py
+if [ -z "$WANDB_API_KEY" ]; then
+    echo "WANDB_API_KEY is not set: wandb 0.13.11 rejects the new wandb_v1_ key format, so 'wandb login' cannot store it; export WANDB_API_KEY in ~/.bashrc instead" >&2
+    exit 1
+fi
+
+poetry run python experiments/launch_induction.py
 
 echo "Finished $(date)"

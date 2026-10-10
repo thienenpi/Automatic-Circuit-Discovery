@@ -24,7 +24,7 @@ exec > "$LOG" 2>&1
 
 module purge 2>/dev/null || true
 source ~/.bashrc
-conda activate python310
+conda activate acdc
 
 export PYTHONPATH="$SLURM_SUBMIT_DIR"
 export OMP_NUM_THREADS="$SLURM_CPUS_PER_TASK"
@@ -36,6 +36,11 @@ if [ -z "$WANDB_ENTITY" ]; then
     echo "WANDB_ENTITY is not set: add 'export WANDB_ENTITY=<your wandb user or team>' to ~/.bashrc" >&2
     exit 1
 fi
+
+if [ -z "$WANDB_API_KEY" ]; then
+    echo "WANDB_API_KEY is not set: wandb 0.13.11 rejects the new wandb_v1_ key format, so 'wandb login' cannot store it; export WANDB_API_KEY in ~/.bashrc instead" >&2
+    exit 1
+fi
 export ACDC_WANDB_GROUP=adria-induction-3
 
 echo "Job $SLURM_JOB_ID on $(hostname); started $(date)"
@@ -44,8 +49,8 @@ echo "Job $SLURM_JOB_ID on $(hostname); started $(date)"
 # 32 of the authors' JSON files. Remove the induction ones first if you want your own runs
 # summarised instead:
 #   rm -f experiments/results/plots_data/*induction*.json
-make -C experiments/results/plots_data induction || exit 1
+poetry run make -C experiments/results/plots_data induction || exit 1
 
-python notebooks/make_plotly_plots.py
+poetry run python notebooks/make_plotly_plots.py
 
 echo "Finished $(date)"
