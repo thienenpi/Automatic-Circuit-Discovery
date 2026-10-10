@@ -45,21 +45,26 @@ pip install poetry
 
 # --- 2. Point Poetry at this interpreter ---
 cd "$REPO"
-poetry env remove --all 2>/dev/null || true
+VENV_ROOT="$(poetry config virtualenvs.path 2>/dev/null || true)"
+if [ -n "$VENV_ROOT" ]; then
+    mkdir -p "$VENV_ROOT"
+    [ -f "$VENV_ROOT/envs.toml" ] || : > "$VENV_ROOT/envs.toml"
+fi
+poetry env remove --all >/dev/null 2>&1 || true
 
 poetry env use "$(which python)"
-VENV="$(poetry env info --path)"
-echo "poetry venv: $VENV"
+SITE="$(poetry run python -c 'import sysconfig; print(sysconfig.get_paths()["purelib"])')"
+echo "site-packages: $SITE"
 
 # --- 3. Patch jaxlib 0.4.13 ---
 # poetry.lock pins jaxlib 0.4.13 (tracr -> chex/jax -> jaxlib), but Google has purged
 # every jaxlib below 0.4.18 from PyPI, so `poetry install` aborts with "Unable to find
 # installation candidates for jaxlib (0.4.13)" and leaves the env half-built. The wheel
 # is still on Google's own release bucket and its sha256 matches the hash in poetry.lock.
-"$VENV/bin/pip" install --no-deps ${CA:+--cert "$CA"} \
+poetry run pip install --no-deps ${CA:+--cert "$CA"} \
     "https://storage.googleapis.com/jax-releases/nocuda/jaxlib-0.4.13-cp310-cp310-manylinux2014_x86_64.whl"
 
-rm -f "$VENV"/lib/python3.10/site-packages/jaxlib-0.4.13.dist-info/direct_url.json
+rm -f "$SITE"/jaxlib-0.4.13.dist-info/direct_url.json
 
 # --- 4. Everything else (~2GB: torch 1.13.1 plus its nvidia cu11 deps) ---
 poetry install --no-interaction
