@@ -37,6 +37,7 @@ exec > "$LOG" 2>&1
 
 module purge 2>/dev/null || true
 source ~/.bashrc
+[ -f slurm/env.sh ] && source slurm/env.sh
 conda activate acdc
 
 if [ -z "$WANDB_ENTITY" ]; then
