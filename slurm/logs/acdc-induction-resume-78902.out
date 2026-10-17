@@ -1,0 +1,4787 @@
+Job 78902 on gpu02; indices=77-83; started Wed Oct 14 05:42:26 AM +07 2026
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.01000', '--using-wandb', '--wandb-run-name=agarriga-acdc-000', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.01334', '--using-wandb', '--wandb-run-name=agarriga-acdc-001', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.01778', '--using-wandb', '--wandb-run-name=agarriga-acdc-002', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.02371', '--using-wandb', '--wandb-run-name=agarriga-acdc-003', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.03162', '--using-wandb', '--wandb-run-name=agarriga-acdc-004', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.04217', '--using-wandb', '--wandb-run-name=agarriga-acdc-005', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.05623', '--using-wandb', '--wandb-run-name=agarriga-acdc-006', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.07499', '--using-wandb', '--wandb-run-name=agarriga-acdc-007', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.10000', '--using-wandb', '--wandb-run-name=agarriga-acdc-008', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.13335', '--using-wandb', '--wandb-run-name=agarriga-acdc-009', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.17783', '--using-wandb', '--wandb-run-name=agarriga-acdc-010', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.23714', '--using-wandb', '--wandb-run-name=agarriga-acdc-011', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.31623', '--using-wandb', '--wandb-run-name=agarriga-acdc-012', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.42170', '--using-wandb', '--wandb-run-name=agarriga-acdc-013', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.56234', '--using-wandb', '--wandb-run-name=agarriga-acdc-014', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.74989', '--using-wandb', '--wandb-run-name=agarriga-acdc-015', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=1.00000', '--using-wandb', '--wandb-run-name=agarriga-acdc-016', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=1.33352', '--using-wandb', '--wandb-run-name=agarriga-acdc-017', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=1.77828', '--using-wandb', '--wandb-run-name=agarriga-acdc-018', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=2.37137', '--using-wandb', '--wandb-run-name=agarriga-acdc-019', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=3.16228', '--using-wandb', '--wandb-run-name=agarriga-acdc-020', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.01000', '--using-wandb', '--wandb-run-name=agarriga-acdc-021', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.01334', '--using-wandb', '--wandb-run-name=agarriga-acdc-022', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.01778', '--using-wandb', '--wandb-run-name=agarriga-acdc-023', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.02371', '--using-wandb', '--wandb-run-name=agarriga-acdc-024', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.03162', '--using-wandb', '--wandb-run-name=agarriga-acdc-025', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.04217', '--using-wandb', '--wandb-run-name=agarriga-acdc-026', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.05623', '--using-wandb', '--wandb-run-name=agarriga-acdc-027', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.07499', '--using-wandb', '--wandb-run-name=agarriga-acdc-028', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.10000', '--using-wandb', '--wandb-run-name=agarriga-acdc-029', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.13335', '--using-wandb', '--wandb-run-name=agarriga-acdc-030', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.17783', '--using-wandb', '--wandb-run-name=agarriga-acdc-031', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.23714', '--using-wandb', '--wandb-run-name=agarriga-acdc-032', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.31623', '--using-wandb', '--wandb-run-name=agarriga-acdc-033', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.42170', '--using-wandb', '--wandb-run-name=agarriga-acdc-034', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.56234', '--using-wandb', '--wandb-run-name=agarriga-acdc-035', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.74989', '--using-wandb', '--wandb-run-name=agarriga-acdc-036', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=1.00000', '--using-wandb', '--wandb-run-name=agarriga-acdc-037', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=1.33352', '--using-wandb', '--wandb-run-name=agarriga-acdc-038', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=1.77828', '--using-wandb', '--wandb-run-name=agarriga-acdc-039', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=2.37137', '--using-wandb', '--wandb-run-name=agarriga-acdc-040', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=3.16228', '--using-wandb', '--wandb-run-name=agarriga-acdc-041', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=0', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.01000', '--using-wandb', '--wandb-run-name=agarriga-acdc-042', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.01334', '--using-wandb', '--wandb-run-name=agarriga-acdc-043', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.01778', '--using-wandb', '--wandb-run-name=agarriga-acdc-044', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.02371', '--using-wandb', '--wandb-run-name=agarriga-acdc-045', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.03162', '--using-wandb', '--wandb-run-name=agarriga-acdc-046', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.04217', '--using-wandb', '--wandb-run-name=agarriga-acdc-047', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.05623', '--using-wandb', '--wandb-run-name=agarriga-acdc-048', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.07499', '--using-wandb', '--wandb-run-name=agarriga-acdc-049', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.10000', '--using-wandb', '--wandb-run-name=agarriga-acdc-050', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.13335', '--using-wandb', '--wandb-run-name=agarriga-acdc-051', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.17783', '--using-wandb', '--wandb-run-name=agarriga-acdc-052', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.23714', '--using-wandb', '--wandb-run-name=agarriga-acdc-053', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.31623', '--using-wandb', '--wandb-run-name=agarriga-acdc-054', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.42170', '--using-wandb', '--wandb-run-name=agarriga-acdc-055', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.56234', '--using-wandb', '--wandb-run-name=agarriga-acdc-056', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.74989', '--using-wandb', '--wandb-run-name=agarriga-acdc-057', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=1.00000', '--using-wandb', '--wandb-run-name=agarriga-acdc-058', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=1.33352', '--using-wandb', '--wandb-run-name=agarriga-acdc-059', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=1.77828', '--using-wandb', '--wandb-run-name=agarriga-acdc-060', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=2.37137', '--using-wandb', '--wandb-run-name=agarriga-acdc-061', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=3.16228', '--using-wandb', '--wandb-run-name=agarriga-acdc-062', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.01000', '--using-wandb', '--wandb-run-name=agarriga-acdc-063', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.01334', '--using-wandb', '--wandb-run-name=agarriga-acdc-064', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.01778', '--using-wandb', '--wandb-run-name=agarriga-acdc-065', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.02371', '--using-wandb', '--wandb-run-name=agarriga-acdc-066', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.03162', '--using-wandb', '--wandb-run-name=agarriga-acdc-067', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.04217', '--using-wandb', '--wandb-run-name=agarriga-acdc-068', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.05623', '--using-wandb', '--wandb-run-name=agarriga-acdc-069', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.07499', '--using-wandb', '--wandb-run-name=agarriga-acdc-070', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.10000', '--using-wandb', '--wandb-run-name=agarriga-acdc-071', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.13335', '--using-wandb', '--wandb-run-name=agarriga-acdc-072', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.17783', '--using-wandb', '--wandb-run-name=agarriga-acdc-073', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.23714', '--using-wandb', '--wandb-run-name=agarriga-acdc-074', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.31623', '--using-wandb', '--wandb-run-name=agarriga-acdc-075', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.42170', '--using-wandb', '--wandb-run-name=agarriga-acdc-076', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.56234', '--using-wandb', '--wandb-run-name=agarriga-acdc-077', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+[77] python acdc/main.py --task=induction --threshold=0.56234 --using-wandb --wandb-run-name=agarriga-acdc-077 --wandb-group-name=adria-induction-3 --device=cpu --reset-network=1 --seed=424671755 --metric=kl_div --torch-num-threads=4 --wandb-dir=/training/acdc --wandb-mode=online --zero-ablation
+Matplotlib is building the font cache; this may take a moment.
+Running outside of colab
+Running as a script
+Downloading config.json:   0%|          | 0.00/824 [00:00<?, ?B/s]Downloading config.json: 100%|██████████| 824/824 [00:00<00:00, 373kB/s]
+Downloading final.pth:   0%|          | 0.00/116M [00:00<?, ?B/s]Downloading final.pth:   9%|▉         | 10.5M/116M [00:00<00:07, 13.5MB/s]Downloading final.pth:  18%|█▊        | 21.0M/116M [00:00<00:03, 26.1MB/s]Downloading final.pth:  27%|██▋       | 31.5M/116M [00:01<00:02, 37.2MB/s]Downloading final.pth:  36%|███▌      | 41.9M/116M [00:01<00:01, 47.0MB/s]Downloading final.pth:  45%|████▌     | 52.4M/116M [00:01<00:01, 55.0MB/s]Downloading final.pth:  54%|█████▍    | 62.9M/116M [00:01<00:00, 61.0MB/s]Downloading final.pth:  63%|██████▎   | 73.4M/116M [00:02<00:01, 33.8MB/s]Downloading final.pth:  72%|███████▏  | 83.9M/116M [00:02<00:01, 24.7MB/s]Downloading final.pth:  82%|████████▏ | 94.4M/116M [00:03<00:00, 23.0MB/s]Downloading final.pth:  91%|█████████ | 105M/116M [00:03<00:00, 20.5MB/s] Downloading final.pth: 100%|█████████▉| 115M/116M [00:04<00:00, 19.7MB/s]Downloading final.pth: 100%|██████████| 116M/116M [00:04<00:00, 25.9MB/s]
+Downloading tokenizer_config.json:   0%|          | 0.00/569 [00:00<?, ?B/s]Downloading tokenizer_config.json: 100%|██████████| 569/569 [00:00<00:00, 1.89MB/s]
+Downloading vocab.json: 0.00B [00:00, ?B/s]Downloading vocab.json: 899kB [00:00, 57.7MB/s]
+Downloading merges.txt: 0.00B [00:00, ?B/s]Downloading merges.txt: 456kB [00:00, 56.1MB/s]
+Downloading tokenizer.json: 0.00B [00:00, ?B/s]Downloading tokenizer.json: 1.88MB [00:00, 102MB/s]
+Downloading (…)cial_tokens_map.json:   0%|          | 0.00/365 [00:00<?, ?B/s]Downloading (…)cial_tokens_map.json: 100%|██████████| 365/365 [00:00<00:00, 1.27MB/s]
+Loaded pretrained model redwood_attn_2l into HookedTransformer
+Downloading validation_data.pt:   0%|          | 0.00/125M [00:00<?, ?B/s]Downloading validation_data.pt:   8%|▊         | 10.5M/125M [00:00<00:07, 15.6MB/s]Downloading validation_data.pt:  17%|█▋        | 21.0M/125M [00:00<00:03, 28.9MB/s]Downloading validation_data.pt:  25%|██▌       | 31.5M/125M [00:00<00:02, 40.3MB/s]Downloading validation_data.pt:  33%|███▎      | 41.9M/125M [00:01<00:01, 49.7MB/s]Downloading validation_data.pt:  42%|████▏     | 52.4M/125M [00:01<00:01, 56.7MB/s]Downloading validation_data.pt:  50%|█████     | 62.9M/125M [00:01<00:01, 62.3MB/s]Downloading validation_data.pt:  59%|█████▊    | 73.4M/125M [00:01<00:00, 66.6MB/s]Downloading validation_data.pt:  67%|██████▋   | 83.9M/125M [00:01<00:00, 69.7MB/s]Downloading validation_data.pt:  75%|███████▌  | 94.4M/125M [00:01<00:00, 71.8MB/s]Downloading validation_data.pt:  84%|████████▎ | 105M/125M [00:01<00:00, 73.1MB/s] Downloading validation_data.pt:  92%|█████████▏| 115M/125M [00:02<00:00, 64.5MB/s]Downloading validation_data.pt: 100%|██████████| 125M/125M [00:02<00:00, 52.8MB/s]Downloading validation_data.pt: 100%|██████████| 125M/125M [00:02<00:00, 52.4MB/s]
+Downloading (…)epeat_candidates.pkl:   0%|          | 0.00/31.3M [00:00<?, ?B/s]Downloading (…)epeat_candidates.pkl:  33%|███▎      | 10.5M/31.3M [00:00<00:01, 17.2MB/s]Downloading (…)epeat_candidates.pkl:  67%|██████▋   | 21.0M/31.3M [00:00<00:00, 31.7MB/s]Downloading (…)epeat_candidates.pkl: 100%|██████████| 31.3M/31.3M [00:00<00:00, 43.3MB/s]Downloading (…)epeat_candidates.pkl: 100%|██████████| 31.3M/31.3M [00:00<00:00, 35.4MB/s]
+Downloading (…)set_heads_neurons.pt:   0%|          | 0.00/116M [00:00<?, ?B/s]Downloading (…)set_heads_neurons.pt:   9%|▉         | 10.5M/116M [00:00<00:09, 11.6MB/s]Downloading (…)set_heads_neurons.pt:  18%|█▊        | 21.0M/116M [00:01<00:04, 23.2MB/s]Downloading (…)set_heads_neurons.pt:  27%|██▋       | 31.5M/116M [00:01<00:02, 34.1MB/s]Downloading (…)set_heads_neurons.pt:  36%|███▌      | 41.9M/116M [00:01<00:01, 43.6MB/s]Downloading (…)set_heads_neurons.pt:  45%|████▌     | 52.4M/116M [00:01<00:01, 51.8MB/s]Downloading (…)set_heads_neurons.pt:  54%|█████▍    | 62.9M/116M [00:01<00:00, 58.2MB/s]Downloading (…)set_heads_neurons.pt:  63%|██████▎   | 73.4M/116M [00:01<00:00, 63.3MB/s]Downloading (…)set_heads_neurons.pt:  72%|███████▏  | 83.9M/116M [00:01<00:00, 66.9MB/s]Downloading (…)set_heads_neurons.pt:  82%|████████▏ | 94.4M/116M [00:01<00:00, 69.0MB/s]Downloading (…)set_heads_neurons.pt:  91%|█████████ | 105M/116M [00:02<00:00, 47.9MB/s] Downloading (…)set_heads_neurons.pt: 100%|█████████▉| 115M/116M [00:03<00:00, 24.1MB/s]Downloading (…)set_heads_neurons.pt: 100%|██████████| 116M/116M [00:03<00:00, 30.8MB/s]
+WARNING:root:cache_all is deprecated and will eventually be removed, use add_caching_hooks or run_with_cache
+/media/lhbac29/auto-circuit/acdc/TLACDCExperiment.py:139: UserWarning:
+
+We shall overwrite the ref_ds with zeros.
+
+WARNING:root:cache_all is deprecated and will eventually be removed, use add_caching_hooks or run_with_cache
+wandb: Currently logged in as: thienenpi280220 (thiennp3-hcmus). Use `wandb login --relogin` to force relogin
+wandb: WARNING Path /training/acdc/wandb/ wasn't writable, using system temp directory.
+wandb: WARNING Path /training/acdc/wandb/ wasn't writable, using system temp directory
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.30.0 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.13.11
+wandb: Run data is saved locally in /tmp/wandb/run-20261014_054831-xfs68t4d
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run agarriga-acdc-077
+wandb: ⭐️ View project at https://wandb.ai/thiennp3-hcmus/acdc
+wandb: 🚀 View run at https://wandb.ai/thiennp3-hcmus/acdc/runs/xfs68t4d
+/media/lhbac29/auto-circuit/acdc/TLACDCExperiment.py:772: UserWarning:
+
+Finished iterating
+
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: \ 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: | 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: / 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: - 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: \ 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: | 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: / 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: - 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: \ 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: | 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: / 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: - 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: \ 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: 
+wandb: Run history:
+wandb:            cur_metric █▇▄▃▃▃▃▃▃▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: experiment.cur_metric ██▆▅▅▄▄▃▃▃▃▃▃▃▃▃▁▁▁
+wandb:             num_edges ███████████▇▇▇▇▇▇▇▆▅▅▄▃▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁
+wandb:       num_edges_total ████▇▇▇▇▆▆▆▆▆▅▅▅▅▃▁
+wandb: 
+wandb: Run summary:
+wandb:            cur_metric 8.48476
+wandb: experiment.cur_metric 8.48476
+wandb:             num_edges 2
+wandb:       num_edges_total 271
+wandb: 
+wandb: 🚀 View run agarriga-acdc-077 at: https://wandb.ai/thiennp3-hcmus/acdc/runs/xfs68t4d
+wandb: Synced 6 W&B file(s), 2 media file(s), 2 artifact file(s) and 0 other file(s)
+wandb: Find logs at: /tmp/wandb/run-20261014_054831-xfs68t4d/logs
+dict_keys(['blocks.1.hook_resid_post', 'blocks.1.attn.hook_result', 'blocks.1.attn.hook_q', 'blocks.1.hook_q_input', 'blocks.1.attn.hook_k', 'blocks.1.hook_k_input', 'blocks.1.attn.hook_v', 'blocks.1.hook_v_input', 'blocks.0.attn.hook_result', 'blocks.0.attn.hook_q', 'blocks.0.hook_q_input', 'blocks.0.attn.hook_k', 'blocks.0.hook_k_input', 'blocks.0.attn.hook_v', 'blocks.0.hook_v_input', 'blocks.0.hook_resid_pre'])
+ln_final.hook_normalized
+ln_final.hook_scale
+blocks.1.hook_resid_post
+blocks.1.hook_attn_out
+blocks.1.attn.hook_result
+blocks.1.attn.hook_z
+blocks.1.attn.hook_pattern
+blocks.1.attn.hook_attn_scores
+blocks.1.attn.hook_v
+blocks.1.attn.hook_k
+blocks.1.attn.hook_q
+blocks.1.ln1.hook_normalized
+blocks.1.ln1.hook_scale
+blocks.1.hook_v_input
+blocks.1.hook_k_input
+blocks.1.hook_q_input
+blocks.1.hook_resid_pre
+blocks.0.hook_resid_post
+blocks.0.hook_attn_out
+blocks.0.attn.hook_result
+blocks.0.attn.hook_z
+blocks.0.attn.hook_pattern
+blocks.0.attn.hook_attn_scores
+blocks.0.attn.hook_v
+blocks.0.attn.hook_k
+blocks.0.attn.hook_q
+blocks.0.ln1.hook_normalized
+blocks.0.ln1.hook_scale
+blocks.0.hook_v_input
+blocks.0.hook_k_input
+blocks.0.hook_q_input
+blocks.0.hook_resid_pre
+hook_pos_embed
+hook_embed
+self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:])
+Adding sender hooks...
+Done corrupting things
+Adding sender hooks...
+No edge 305
+No edge 305
+New metric: 14.57758903503418
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 7]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 7] is 14.206900596618652 (and current metric 14.57758903503418)
+Result is -0.37068843841552734...so removing connection
+No edge 304
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 6]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 6] is 13.725497245788574 (and current metric 14.206900596618652)
+Result is -0.4814033508300781...so removing connection
+No edge 303
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 5] is 15.258221626281738 (and current metric 13.725497245788574)
+Result is 1.532724380493164...so keeping connection
+No edge 303
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 4]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 4] is 12.531143188476562 (and current metric 13.725497245788574)
+Result is -1.1943540573120117...so removing connection
+No edge 302
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 3]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 3] is 11.637913703918457 (and current metric 12.531143188476562)
+Result is -0.8932294845581055...so removing connection
+No edge 301
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 2]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 2] is 11.610753059387207 (and current metric 11.637913703918457)
+Result is -0.02716064453125...so removing connection
+No edge 300
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 1]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 1] is 10.845948219299316 (and current metric 11.610753059387207)
+Result is -0.7648048400878906...so removing connection
+No edge 299
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 0]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 0] is 10.439008712768555 (and current metric 10.845948219299316)
+Result is -0.4069395065307617...so removing connection
+No edge 298
+No edge 298
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 7]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 7] is 10.253143310546875 (and current metric 10.439008712768555)
+Result is -0.1858654022216797...so removing connection
+No edge 297
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 6]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 6] is 10.336631774902344 (and current metric 10.253143310546875)
+Result is 0.08348846435546875...so removing connection
+No edge 296
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 5] is 10.301681518554688 (and current metric 10.336631774902344)
+Result is -0.03495025634765625...so removing connection
+No edge 295
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 4]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 4] is 10.311141014099121 (and current metric 10.301681518554688)
+Result is 0.009459495544433594...so removing connection
+No edge 294
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 3]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 3] is 10.26331901550293 (and current metric 10.311141014099121)
+Result is -0.047821998596191406...so removing connection
+No edge 293
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 2]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 2] is 10.185833930969238 (and current metric 10.26331901550293)
+Result is -0.0774850845336914...so removing connection
+No edge 292
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 1]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 1] is 10.147442817687988 (and current metric 10.185833930969238)
+Result is -0.03839111328125...so removing connection
+No edge 291
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 0]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 0] is 10.154695510864258 (and current metric 10.147442817687988)
+Result is 0.007252693176269531...so removing connection
+No edge 290
+No edge 290
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.hook_resid_pre, [:]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.hook_resid_pre [:] is 12.8596830368042 (and current metric 10.154695510864258)
+Result is 2.7049875259399414...so keeping connection
+No edge 290
+No edge 290
+We moved to  blocks.1.attn.hook_result[:, :, 7]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 6]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 5]
+No edge 290
+0 --------------------------------------------------
+No edge 290
+290
+No edge 290
+New metric: 10.154695510864258
+No edge 290
+No edge 290
+No edge 290
+We moved to  blocks.1.attn.hook_result[:, :, 4]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 3]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 2]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 1]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 0]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 7]
+No edge 290
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 6]
+No edge 289
+No edge 288
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 5]
+No edge 288
+1 --------------------------------------------------
+No edge 288
+288
+No edge 288
+New metric: 10.154695510864258
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.hook_v_input, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.attn.hook_v, [:, :, 5]))
+
+Metric after removing connection to blocks.1.hook_v_input [:, :, 5] is 8.484763145446777 (and current metric 10.154695510864258)
+Result is -1.6699323654174805...so removing connection
+No edge 287
+No edge 287
+We moved to  blocks.1.attn.hook_v[:, :, 4]
+No edge 287
+No edge 286
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 3]
+No edge 286
+No edge 285
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 2]
+No edge 285
+No edge 284
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 1]
+No edge 284
+No edge 283
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 0]
+No edge 283
+No edge 282
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 7]
+No edge 282
+No edge 281
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 6]
+No edge 281
+No edge 280
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 5]
+No edge 280
+2 --------------------------------------------------
+No edge 280
+280
+No edge 280
+New metric: 8.484763145446777
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.hook_k_input, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.attn.hook_k, [:, :, 5]))
+
+Metric after removing connection to blocks.1.hook_k_input [:, :, 5] is 8.484763145446777 (and current metric 8.484763145446777)
+Result is 0.0...so removing connection
+No edge 279
+No edge 279
+We moved to  blocks.1.attn.hook_k[:, :, 4]
+No edge 279
+No edge 278
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 3]
+No edge 278
+No edge 277
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 2]
+No edge 277
+No edge 276
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 1]
+No edge 276
+No edge 275
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 0]
+No edge 275
+No edge 274
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 7]
+No edge 274
+No edge 273
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 6]
+No edge 273
+No edge 272
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 5]
+No edge 272
+3 --------------------------------------------------
+No edge 272
+272
+No edge 272
+New metric: 8.484763145446777
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.hook_q_input, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.attn.hook_q, [:, :, 5]))
+
+Metric after removing connection to blocks.1.hook_q_input [:, :, 5] is 8.484763145446777 (and current metric 8.484763145446777)
+Result is 0.0...so removing connection
+No edge 271
+No edge 271
+We moved to  blocks.1.attn.hook_q[:, :, 4]
+No edge 271
+No edge 270
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 3]
+No edge 270
+No edge 269
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 2]
+No edge 269
+No edge 268
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 1]
+No edge 268
+No edge 267
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 0]
+No edge 267
+No edge 266
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 7]
+No edge 266
+No edge 257
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 6]
+No edge 257
+No edge 248
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 5]
+No edge 248
+No edge 239
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 4]
+No edge 239
+No edge 230
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 3]
+No edge 230
+No edge 221
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 2]
+No edge 221
+No edge 212
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 1]
+No edge 212
+No edge 203
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 0]
+No edge 203
+No edge 194
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 7]
+No edge 194
+No edge 185
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 6]
+No edge 185
+No edge 176
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 5]
+No edge 176
+No edge 167
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 4]
+No edge 167
+No edge 158
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 3]
+No edge 158
+No edge 149
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 2]
+No edge 149
+No edge 140
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 1]
+No edge 140
+No edge 131
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 0]
+No edge 131
+No edge 122
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 7]
+No edge 122
+No edge 113
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 6]
+No edge 113
+No edge 104
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 5]
+No edge 104
+No edge 95
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 4]
+No edge 95
+No edge 86
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 3]
+No edge 86
+No edge 77
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 2]
+No edge 77
+No edge 68
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 1]
+No edge 68
+No edge 59
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 0]
+No edge 59
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 7]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 6]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 5]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 4]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 3]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 2]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 1]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 0]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 7]
+No edge 50
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 6]
+No edge 49
+No edge 48
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 5]
+No edge 48
+No edge 47
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 4]
+No edge 47
+No edge 46
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 3]
+No edge 46
+No edge 45
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 2]
+No edge 45
+No edge 44
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 1]
+No edge 44
+No edge 43
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 0]
+No edge 43
+No edge 42
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 7]
+No edge 42
+No edge 41
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 6]
+No edge 41
+No edge 40
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 5]
+No edge 40
+No edge 39
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 4]
+No edge 39
+No edge 38
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 3]
+No edge 38
+No edge 37
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 2]
+No edge 37
+No edge 36
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 1]
+No edge 36
+No edge 35
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 0]
+No edge 35
+No edge 34
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 7]
+No edge 34
+No edge 33
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 6]
+No edge 33
+No edge 32
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 5]
+No edge 32
+No edge 31
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 4]
+No edge 31
+No edge 30
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 3]
+No edge 30
+No edge 29
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 2]
+No edge 29
+No edge 28
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 1]
+No edge 28
+No edge 27
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 0]
+No edge 27
+No edge 26
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 7]
+No edge 26
+No edge 25
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 6]
+No edge 25
+No edge 24
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 5]
+No edge 24
+No edge 23
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 4]
+No edge 23
+No edge 22
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 3]
+No edge 22
+No edge 21
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 2]
+No edge 21
+No edge 20
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 1]
+No edge 20
+No edge 19
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 0]
+No edge 19
+No edge 18
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 7]
+No edge 18
+No edge 17
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 6]
+No edge 17
+No edge 16
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 5]
+No edge 16
+No edge 15
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 4]
+No edge 15
+No edge 14
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 3]
+No edge 14
+No edge 13
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 2]
+No edge 13
+No edge 12
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 1]
+No edge 12
+No edge 11
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 0]
+No edge 11
+No edge 10
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 7]
+No edge 10
+No edge 9
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 6]
+No edge 9
+No edge 8
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 5]
+No edge 8
+No edge 7
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 4]
+No edge 7
+No edge 6
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 3]
+No edge 6
+No edge 5
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 2]
+No edge 5
+No edge 4
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 1]
+No edge 4
+No edge 3
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 0]
+No edge 3
+No edge 2
+But it's bad
+We moved to  blocks.0.hook_resid_pre[:]
+No edge 2
+4 --------------------------------------------------
+No edge 2
+2
+No edge 2
+New metric: 8.484763145446777
+We moved to  None
+No edge 2
+5 --------------------------------------------------
+No edge 2
+2
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=0.74989', '--using-wandb', '--wandb-run-name=agarriga-acdc-078', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+[78] python acdc/main.py --task=induction --threshold=0.74989 --using-wandb --wandb-run-name=agarriga-acdc-078 --wandb-group-name=adria-induction-3 --device=cpu --reset-network=1 --seed=424671755 --metric=kl_div --torch-num-threads=4 --wandb-dir=/training/acdc --wandb-mode=online --zero-ablation
+WARNING:root:cache_all is deprecated and will eventually be removed, use add_caching_hooks or run_with_cache
+/media/lhbac29/auto-circuit/acdc/TLACDCExperiment.py:139: UserWarning:
+
+We shall overwrite the ref_ds with zeros.
+
+WARNING:root:cache_all is deprecated and will eventually be removed, use add_caching_hooks or run_with_cache
+wandb: Currently logged in as: thienenpi280220 (thiennp3-hcmus). Use `wandb login --relogin` to force relogin
+wandb: WARNING Path /training/acdc/wandb/ wasn't writable, using system temp directory.
+wandb: WARNING Path /training/acdc/wandb/ wasn't writable, using system temp directory
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.30.0 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.13.11
+wandb: Run data is saved locally in /tmp/wandb/run-20261014_061404-szyboddd
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run agarriga-acdc-078
+wandb: ⭐️ View project at https://wandb.ai/thiennp3-hcmus/acdc
+wandb: 🚀 View run at https://wandb.ai/thiennp3-hcmus/acdc/runs/szyboddd
+/media/lhbac29/auto-circuit/acdc/TLACDCExperiment.py:772: UserWarning:
+
+Finished iterating
+
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: \ 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: | 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: / 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: - 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: \ 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: | 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: / 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: - 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: 
+wandb: Run history:
+wandb:            cur_metric █▇▄▃▃▃▃▃▃▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: experiment.cur_metric ██▆▅▅▄▄▃▃▃▃▃▃▃▃▃▁▁▁
+wandb:             num_edges ███████████▇▇▇▇▇▇▇▆▅▅▄▃▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁
+wandb:       num_edges_total ████▇▇▇▇▆▆▆▆▆▅▅▅▅▃▁
+wandb: 
+wandb: Run summary:
+wandb:            cur_metric 8.48476
+wandb: experiment.cur_metric 8.48476
+wandb:             num_edges 2
+wandb:       num_edges_total 271
+wandb: 
+wandb: 🚀 View run agarriga-acdc-078 at: https://wandb.ai/thiennp3-hcmus/acdc/runs/szyboddd
+wandb: Synced 6 W&B file(s), 2 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: /tmp/wandb/run-20261014_061404-szyboddd/logs
+Running outside of colab
+Running as a script
+Loaded pretrained model redwood_attn_2l into HookedTransformer
+dict_keys(['blocks.1.hook_resid_post', 'blocks.1.attn.hook_result', 'blocks.1.attn.hook_q', 'blocks.1.hook_q_input', 'blocks.1.attn.hook_k', 'blocks.1.hook_k_input', 'blocks.1.attn.hook_v', 'blocks.1.hook_v_input', 'blocks.0.attn.hook_result', 'blocks.0.attn.hook_q', 'blocks.0.hook_q_input', 'blocks.0.attn.hook_k', 'blocks.0.hook_k_input', 'blocks.0.attn.hook_v', 'blocks.0.hook_v_input', 'blocks.0.hook_resid_pre'])
+ln_final.hook_normalized
+ln_final.hook_scale
+blocks.1.hook_resid_post
+blocks.1.hook_attn_out
+blocks.1.attn.hook_result
+blocks.1.attn.hook_z
+blocks.1.attn.hook_pattern
+blocks.1.attn.hook_attn_scores
+blocks.1.attn.hook_v
+blocks.1.attn.hook_k
+blocks.1.attn.hook_q
+blocks.1.ln1.hook_normalized
+blocks.1.ln1.hook_scale
+blocks.1.hook_v_input
+blocks.1.hook_k_input
+blocks.1.hook_q_input
+blocks.1.hook_resid_pre
+blocks.0.hook_resid_post
+blocks.0.hook_attn_out
+blocks.0.attn.hook_result
+blocks.0.attn.hook_z
+blocks.0.attn.hook_pattern
+blocks.0.attn.hook_attn_scores
+blocks.0.attn.hook_v
+blocks.0.attn.hook_k
+blocks.0.attn.hook_q
+blocks.0.ln1.hook_normalized
+blocks.0.ln1.hook_scale
+blocks.0.hook_v_input
+blocks.0.hook_k_input
+blocks.0.hook_q_input
+blocks.0.hook_resid_pre
+hook_pos_embed
+hook_embed
+self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:])
+Adding sender hooks...
+Done corrupting things
+Adding sender hooks...
+No edge 305
+No edge 305
+New metric: 14.57758903503418
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 7]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 7] is 14.206900596618652 (and current metric 14.57758903503418)
+Result is -0.37068843841552734...so removing connection
+No edge 304
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 6]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 6] is 13.725497245788574 (and current metric 14.206900596618652)
+Result is -0.4814033508300781...so removing connection
+No edge 303
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 5] is 15.258221626281738 (and current metric 13.725497245788574)
+Result is 1.532724380493164...so keeping connection
+No edge 303
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 4]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 4] is 12.531143188476562 (and current metric 13.725497245788574)
+Result is -1.1943540573120117...so removing connection
+No edge 302
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 3]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 3] is 11.637913703918457 (and current metric 12.531143188476562)
+Result is -0.8932294845581055...so removing connection
+No edge 301
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 2]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 2] is 11.610753059387207 (and current metric 11.637913703918457)
+Result is -0.02716064453125...so removing connection
+No edge 300
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 1]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 1] is 10.845948219299316 (and current metric 11.610753059387207)
+Result is -0.7648048400878906...so removing connection
+No edge 299
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 0]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 0] is 10.439008712768555 (and current metric 10.845948219299316)
+Result is -0.4069395065307617...so removing connection
+No edge 298
+No edge 298
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 7]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 7] is 10.253143310546875 (and current metric 10.439008712768555)
+Result is -0.1858654022216797...so removing connection
+No edge 297
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 6]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 6] is 10.336631774902344 (and current metric 10.253143310546875)
+Result is 0.08348846435546875...so removing connection
+No edge 296
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 5] is 10.301681518554688 (and current metric 10.336631774902344)
+Result is -0.03495025634765625...so removing connection
+No edge 295
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 4]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 4] is 10.311141014099121 (and current metric 10.301681518554688)
+Result is 0.009459495544433594...so removing connection
+No edge 294
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 3]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 3] is 10.26331901550293 (and current metric 10.311141014099121)
+Result is -0.047821998596191406...so removing connection
+No edge 293
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 2]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 2] is 10.185833930969238 (and current metric 10.26331901550293)
+Result is -0.0774850845336914...so removing connection
+No edge 292
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 1]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 1] is 10.147442817687988 (and current metric 10.185833930969238)
+Result is -0.03839111328125...so removing connection
+No edge 291
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 0]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 0] is 10.154695510864258 (and current metric 10.147442817687988)
+Result is 0.007252693176269531...so removing connection
+No edge 290
+No edge 290
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.hook_resid_pre, [:]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.hook_resid_pre [:] is 12.8596830368042 (and current metric 10.154695510864258)
+Result is 2.7049875259399414...so keeping connection
+No edge 290
+No edge 290
+We moved to  blocks.1.attn.hook_result[:, :, 7]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 6]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 5]
+No edge 290
+0 --------------------------------------------------
+No edge 290
+290
+No edge 290
+New metric: 10.154695510864258
+No edge 290
+No edge 290
+No edge 290
+We moved to  blocks.1.attn.hook_result[:, :, 4]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 3]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 2]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 1]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 0]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 7]
+No edge 290
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 6]
+No edge 289
+No edge 288
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 5]
+No edge 288
+1 --------------------------------------------------
+No edge 288
+288
+No edge 288
+New metric: 10.154695510864258
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.hook_v_input, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.attn.hook_v, [:, :, 5]))
+
+Metric after removing connection to blocks.1.hook_v_input [:, :, 5] is 8.484763145446777 (and current metric 10.154695510864258)
+Result is -1.6699323654174805...so removing connection
+No edge 287
+No edge 287
+We moved to  blocks.1.attn.hook_v[:, :, 4]
+No edge 287
+No edge 286
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 3]
+No edge 286
+No edge 285
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 2]
+No edge 285
+No edge 284
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 1]
+No edge 284
+No edge 283
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 0]
+No edge 283
+No edge 282
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 7]
+No edge 282
+No edge 281
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 6]
+No edge 281
+No edge 280
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 5]
+No edge 280
+2 --------------------------------------------------
+No edge 280
+280
+No edge 280
+New metric: 8.484763145446777
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.hook_k_input, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.attn.hook_k, [:, :, 5]))
+
+Metric after removing connection to blocks.1.hook_k_input [:, :, 5] is 8.484763145446777 (and current metric 8.484763145446777)
+Result is 0.0...so removing connection
+No edge 279
+No edge 279
+We moved to  blocks.1.attn.hook_k[:, :, 4]
+No edge 279
+No edge 278
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 3]
+No edge 278
+No edge 277
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 2]
+No edge 277
+No edge 276
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 1]
+No edge 276
+No edge 275
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 0]
+No edge 275
+No edge 274
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 7]
+No edge 274
+No edge 273
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 6]
+No edge 273
+No edge 272
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 5]
+No edge 272
+3 --------------------------------------------------
+No edge 272
+272
+No edge 272
+New metric: 8.484763145446777
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.hook_q_input, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.attn.hook_q, [:, :, 5]))
+
+Metric after removing connection to blocks.1.hook_q_input [:, :, 5] is 8.484763145446777 (and current metric 8.484763145446777)
+Result is 0.0...so removing connection
+No edge 271
+No edge 271
+We moved to  blocks.1.attn.hook_q[:, :, 4]
+No edge 271
+No edge 270
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 3]
+No edge 270
+No edge 269
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 2]
+No edge 269
+No edge 268
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 1]
+No edge 268
+No edge 267
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 0]
+No edge 267
+No edge 266
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 7]
+No edge 266
+No edge 257
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 6]
+No edge 257
+No edge 248
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 5]
+No edge 248
+No edge 239
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 4]
+No edge 239
+No edge 230
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 3]
+No edge 230
+No edge 221
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 2]
+No edge 221
+No edge 212
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 1]
+No edge 212
+No edge 203
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 0]
+No edge 203
+No edge 194
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 7]
+No edge 194
+No edge 185
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 6]
+No edge 185
+No edge 176
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 5]
+No edge 176
+No edge 167
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 4]
+No edge 167
+No edge 158
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 3]
+No edge 158
+No edge 149
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 2]
+No edge 149
+No edge 140
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 1]
+No edge 140
+No edge 131
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 0]
+No edge 131
+No edge 122
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 7]
+No edge 122
+No edge 113
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 6]
+No edge 113
+No edge 104
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 5]
+No edge 104
+No edge 95
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 4]
+No edge 95
+No edge 86
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 3]
+No edge 86
+No edge 77
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 2]
+No edge 77
+No edge 68
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 1]
+No edge 68
+No edge 59
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 0]
+No edge 59
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 7]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 6]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 5]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 4]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 3]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 2]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 1]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 0]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 7]
+No edge 50
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 6]
+No edge 49
+No edge 48
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 5]
+No edge 48
+No edge 47
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 4]
+No edge 47
+No edge 46
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 3]
+No edge 46
+No edge 45
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 2]
+No edge 45
+No edge 44
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 1]
+No edge 44
+No edge 43
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 0]
+No edge 43
+No edge 42
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 7]
+No edge 42
+No edge 41
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 6]
+No edge 41
+No edge 40
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 5]
+No edge 40
+No edge 39
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 4]
+No edge 39
+No edge 38
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 3]
+No edge 38
+No edge 37
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 2]
+No edge 37
+No edge 36
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 1]
+No edge 36
+No edge 35
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 0]
+No edge 35
+No edge 34
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 7]
+No edge 34
+No edge 33
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 6]
+No edge 33
+No edge 32
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 5]
+No edge 32
+No edge 31
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 4]
+No edge 31
+No edge 30
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 3]
+No edge 30
+No edge 29
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 2]
+No edge 29
+No edge 28
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 1]
+No edge 28
+No edge 27
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 0]
+No edge 27
+No edge 26
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 7]
+No edge 26
+No edge 25
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 6]
+No edge 25
+No edge 24
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 5]
+No edge 24
+No edge 23
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 4]
+No edge 23
+No edge 22
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 3]
+No edge 22
+No edge 21
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 2]
+No edge 21
+No edge 20
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 1]
+No edge 20
+No edge 19
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 0]
+No edge 19
+No edge 18
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 7]
+No edge 18
+No edge 17
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 6]
+No edge 17
+No edge 16
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 5]
+No edge 16
+No edge 15
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 4]
+No edge 15
+No edge 14
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 3]
+No edge 14
+No edge 13
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 2]
+No edge 13
+No edge 12
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 1]
+No edge 12
+No edge 11
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 0]
+No edge 11
+No edge 10
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 7]
+No edge 10
+No edge 9
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 6]
+No edge 9
+No edge 8
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 5]
+No edge 8
+No edge 7
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 4]
+No edge 7
+No edge 6
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 3]
+No edge 6
+No edge 5
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 2]
+No edge 5
+No edge 4
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 1]
+No edge 4
+No edge 3
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 0]
+No edge 3
+No edge 2
+But it's bad
+We moved to  blocks.0.hook_resid_pre[:]
+No edge 2
+4 --------------------------------------------------
+No edge 2
+2
+No edge 2
+New metric: 8.484763145446777
+We moved to  None
+No edge 2
+5 --------------------------------------------------
+No edge 2
+2
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=1.00000', '--using-wandb', '--wandb-run-name=agarriga-acdc-079', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+[79] python acdc/main.py --task=induction --threshold=1.00000 --using-wandb --wandb-run-name=agarriga-acdc-079 --wandb-group-name=adria-induction-3 --device=cpu --reset-network=1 --seed=424671755 --metric=kl_div --torch-num-threads=4 --wandb-dir=/training/acdc --wandb-mode=online --zero-ablation
+WARNING:root:cache_all is deprecated and will eventually be removed, use add_caching_hooks or run_with_cache
+/media/lhbac29/auto-circuit/acdc/TLACDCExperiment.py:139: UserWarning:
+
+We shall overwrite the ref_ds with zeros.
+
+WARNING:root:cache_all is deprecated and will eventually be removed, use add_caching_hooks or run_with_cache
+wandb: Currently logged in as: thienenpi280220 (thiennp3-hcmus). Use `wandb login --relogin` to force relogin
+wandb: WARNING Path /training/acdc/wandb/ wasn't writable, using system temp directory.
+wandb: WARNING Path /training/acdc/wandb/ wasn't writable, using system temp directory
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.30.0 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.13.11
+wandb: Run data is saved locally in /tmp/wandb/run-20261014_063822-v65mltek
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run agarriga-acdc-079
+wandb: ⭐️ View project at https://wandb.ai/thiennp3-hcmus/acdc
+wandb: 🚀 View run at https://wandb.ai/thiennp3-hcmus/acdc/runs/v65mltek
+/media/lhbac29/auto-circuit/acdc/TLACDCExperiment.py:772: UserWarning:
+
+Finished iterating
+
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: \ 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: | 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: / 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: - 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: \ 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: | 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: / 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: 
+wandb: Run history:
+wandb:            cur_metric █▇▄▃▃▃▃▃▃▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: experiment.cur_metric ██▆▅▅▄▄▃▃▃▃▃▃▃▃▃▁▁▁
+wandb:             num_edges ███████████▇▇▇▇▇▇▇▆▅▅▄▃▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁
+wandb:       num_edges_total ████▇▇▇▇▆▆▆▆▆▅▅▅▅▃▁
+wandb: 
+wandb: Run summary:
+wandb:            cur_metric 8.48476
+wandb: experiment.cur_metric 8.48476
+wandb:             num_edges 2
+wandb:       num_edges_total 271
+wandb: 
+wandb: 🚀 View run agarriga-acdc-079 at: https://wandb.ai/thiennp3-hcmus/acdc/runs/v65mltek
+wandb: Synced 6 W&B file(s), 2 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: /tmp/wandb/run-20261014_063822-v65mltek/logs
+Running outside of colab
+Running as a script
+Loaded pretrained model redwood_attn_2l into HookedTransformer
+dict_keys(['blocks.1.hook_resid_post', 'blocks.1.attn.hook_result', 'blocks.1.attn.hook_q', 'blocks.1.hook_q_input', 'blocks.1.attn.hook_k', 'blocks.1.hook_k_input', 'blocks.1.attn.hook_v', 'blocks.1.hook_v_input', 'blocks.0.attn.hook_result', 'blocks.0.attn.hook_q', 'blocks.0.hook_q_input', 'blocks.0.attn.hook_k', 'blocks.0.hook_k_input', 'blocks.0.attn.hook_v', 'blocks.0.hook_v_input', 'blocks.0.hook_resid_pre'])
+ln_final.hook_normalized
+ln_final.hook_scale
+blocks.1.hook_resid_post
+blocks.1.hook_attn_out
+blocks.1.attn.hook_result
+blocks.1.attn.hook_z
+blocks.1.attn.hook_pattern
+blocks.1.attn.hook_attn_scores
+blocks.1.attn.hook_v
+blocks.1.attn.hook_k
+blocks.1.attn.hook_q
+blocks.1.ln1.hook_normalized
+blocks.1.ln1.hook_scale
+blocks.1.hook_v_input
+blocks.1.hook_k_input
+blocks.1.hook_q_input
+blocks.1.hook_resid_pre
+blocks.0.hook_resid_post
+blocks.0.hook_attn_out
+blocks.0.attn.hook_result
+blocks.0.attn.hook_z
+blocks.0.attn.hook_pattern
+blocks.0.attn.hook_attn_scores
+blocks.0.attn.hook_v
+blocks.0.attn.hook_k
+blocks.0.attn.hook_q
+blocks.0.ln1.hook_normalized
+blocks.0.ln1.hook_scale
+blocks.0.hook_v_input
+blocks.0.hook_k_input
+blocks.0.hook_q_input
+blocks.0.hook_resid_pre
+hook_pos_embed
+hook_embed
+self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:])
+Adding sender hooks...
+Done corrupting things
+Adding sender hooks...
+No edge 305
+No edge 305
+New metric: 14.57758903503418
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 7]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 7] is 14.206900596618652 (and current metric 14.57758903503418)
+Result is -0.37068843841552734...so removing connection
+No edge 304
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 6]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 6] is 13.725497245788574 (and current metric 14.206900596618652)
+Result is -0.4814033508300781...so removing connection
+No edge 303
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 5] is 15.258221626281738 (and current metric 13.725497245788574)
+Result is 1.532724380493164...so keeping connection
+No edge 303
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 4]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 4] is 12.531143188476562 (and current metric 13.725497245788574)
+Result is -1.1943540573120117...so removing connection
+No edge 302
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 3]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 3] is 11.637913703918457 (and current metric 12.531143188476562)
+Result is -0.8932294845581055...so removing connection
+No edge 301
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 2]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 2] is 11.610753059387207 (and current metric 11.637913703918457)
+Result is -0.02716064453125...so removing connection
+No edge 300
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 1]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 1] is 10.845948219299316 (and current metric 11.610753059387207)
+Result is -0.7648048400878906...so removing connection
+No edge 299
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 0]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 0] is 10.439008712768555 (and current metric 10.845948219299316)
+Result is -0.4069395065307617...so removing connection
+No edge 298
+No edge 298
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 7]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 7] is 10.253143310546875 (and current metric 10.439008712768555)
+Result is -0.1858654022216797...so removing connection
+No edge 297
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 6]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 6] is 10.336631774902344 (and current metric 10.253143310546875)
+Result is 0.08348846435546875...so removing connection
+No edge 296
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 5] is 10.301681518554688 (and current metric 10.336631774902344)
+Result is -0.03495025634765625...so removing connection
+No edge 295
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 4]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 4] is 10.311141014099121 (and current metric 10.301681518554688)
+Result is 0.009459495544433594...so removing connection
+No edge 294
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 3]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 3] is 10.26331901550293 (and current metric 10.311141014099121)
+Result is -0.047821998596191406...so removing connection
+No edge 293
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 2]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 2] is 10.185833930969238 (and current metric 10.26331901550293)
+Result is -0.0774850845336914...so removing connection
+No edge 292
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 1]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 1] is 10.147442817687988 (and current metric 10.185833930969238)
+Result is -0.03839111328125...so removing connection
+No edge 291
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 0]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 0] is 10.154695510864258 (and current metric 10.147442817687988)
+Result is 0.007252693176269531...so removing connection
+No edge 290
+No edge 290
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.hook_resid_pre, [:]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.hook_resid_pre [:] is 12.8596830368042 (and current metric 10.154695510864258)
+Result is 2.7049875259399414...so keeping connection
+No edge 290
+No edge 290
+We moved to  blocks.1.attn.hook_result[:, :, 7]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 6]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 5]
+No edge 290
+0 --------------------------------------------------
+No edge 290
+290
+No edge 290
+New metric: 10.154695510864258
+No edge 290
+No edge 290
+No edge 290
+We moved to  blocks.1.attn.hook_result[:, :, 4]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 3]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 2]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 1]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 0]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 7]
+No edge 290
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 6]
+No edge 289
+No edge 288
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 5]
+No edge 288
+1 --------------------------------------------------
+No edge 288
+288
+No edge 288
+New metric: 10.154695510864258
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.hook_v_input, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.attn.hook_v, [:, :, 5]))
+
+Metric after removing connection to blocks.1.hook_v_input [:, :, 5] is 8.484763145446777 (and current metric 10.154695510864258)
+Result is -1.6699323654174805...so removing connection
+No edge 287
+No edge 287
+We moved to  blocks.1.attn.hook_v[:, :, 4]
+No edge 287
+No edge 286
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 3]
+No edge 286
+No edge 285
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 2]
+No edge 285
+No edge 284
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 1]
+No edge 284
+No edge 283
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 0]
+No edge 283
+No edge 282
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 7]
+No edge 282
+No edge 281
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 6]
+No edge 281
+No edge 280
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 5]
+No edge 280
+2 --------------------------------------------------
+No edge 280
+280
+No edge 280
+New metric: 8.484763145446777
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.hook_k_input, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.attn.hook_k, [:, :, 5]))
+
+Metric after removing connection to blocks.1.hook_k_input [:, :, 5] is 8.484763145446777 (and current metric 8.484763145446777)
+Result is 0.0...so removing connection
+No edge 279
+No edge 279
+We moved to  blocks.1.attn.hook_k[:, :, 4]
+No edge 279
+No edge 278
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 3]
+No edge 278
+No edge 277
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 2]
+No edge 277
+No edge 276
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 1]
+No edge 276
+No edge 275
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 0]
+No edge 275
+No edge 274
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 7]
+No edge 274
+No edge 273
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 6]
+No edge 273
+No edge 272
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 5]
+No edge 272
+3 --------------------------------------------------
+No edge 272
+272
+No edge 272
+New metric: 8.484763145446777
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.hook_q_input, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.attn.hook_q, [:, :, 5]))
+
+Metric after removing connection to blocks.1.hook_q_input [:, :, 5] is 8.484763145446777 (and current metric 8.484763145446777)
+Result is 0.0...so removing connection
+No edge 271
+No edge 271
+We moved to  blocks.1.attn.hook_q[:, :, 4]
+No edge 271
+No edge 270
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 3]
+No edge 270
+No edge 269
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 2]
+No edge 269
+No edge 268
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 1]
+No edge 268
+No edge 267
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 0]
+No edge 267
+No edge 266
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 7]
+No edge 266
+No edge 257
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 6]
+No edge 257
+No edge 248
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 5]
+No edge 248
+No edge 239
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 4]
+No edge 239
+No edge 230
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 3]
+No edge 230
+No edge 221
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 2]
+No edge 221
+No edge 212
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 1]
+No edge 212
+No edge 203
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 0]
+No edge 203
+No edge 194
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 7]
+No edge 194
+No edge 185
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 6]
+No edge 185
+No edge 176
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 5]
+No edge 176
+No edge 167
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 4]
+No edge 167
+No edge 158
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 3]
+No edge 158
+No edge 149
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 2]
+No edge 149
+No edge 140
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 1]
+No edge 140
+No edge 131
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 0]
+No edge 131
+No edge 122
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 7]
+No edge 122
+No edge 113
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 6]
+No edge 113
+No edge 104
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 5]
+No edge 104
+No edge 95
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 4]
+No edge 95
+No edge 86
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 3]
+No edge 86
+No edge 77
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 2]
+No edge 77
+No edge 68
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 1]
+No edge 68
+No edge 59
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 0]
+No edge 59
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 7]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 6]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 5]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 4]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 3]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 2]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 1]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 0]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 7]
+No edge 50
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 6]
+No edge 49
+No edge 48
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 5]
+No edge 48
+No edge 47
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 4]
+No edge 47
+No edge 46
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 3]
+No edge 46
+No edge 45
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 2]
+No edge 45
+No edge 44
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 1]
+No edge 44
+No edge 43
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 0]
+No edge 43
+No edge 42
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 7]
+No edge 42
+No edge 41
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 6]
+No edge 41
+No edge 40
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 5]
+No edge 40
+No edge 39
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 4]
+No edge 39
+No edge 38
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 3]
+No edge 38
+No edge 37
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 2]
+No edge 37
+No edge 36
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 1]
+No edge 36
+No edge 35
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 0]
+No edge 35
+No edge 34
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 7]
+No edge 34
+No edge 33
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 6]
+No edge 33
+No edge 32
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 5]
+No edge 32
+No edge 31
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 4]
+No edge 31
+No edge 30
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 3]
+No edge 30
+No edge 29
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 2]
+No edge 29
+No edge 28
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 1]
+No edge 28
+No edge 27
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 0]
+No edge 27
+No edge 26
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 7]
+No edge 26
+No edge 25
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 6]
+No edge 25
+No edge 24
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 5]
+No edge 24
+No edge 23
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 4]
+No edge 23
+No edge 22
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 3]
+No edge 22
+No edge 21
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 2]
+No edge 21
+No edge 20
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 1]
+No edge 20
+No edge 19
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 0]
+No edge 19
+No edge 18
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 7]
+No edge 18
+No edge 17
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 6]
+No edge 17
+No edge 16
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 5]
+No edge 16
+No edge 15
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 4]
+No edge 15
+No edge 14
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 3]
+No edge 14
+No edge 13
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 2]
+No edge 13
+No edge 12
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 1]
+No edge 12
+No edge 11
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 0]
+No edge 11
+No edge 10
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 7]
+No edge 10
+No edge 9
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 6]
+No edge 9
+No edge 8
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 5]
+No edge 8
+No edge 7
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 4]
+No edge 7
+No edge 6
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 3]
+No edge 6
+No edge 5
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 2]
+No edge 5
+No edge 4
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 1]
+No edge 4
+No edge 3
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 0]
+No edge 3
+No edge 2
+But it's bad
+We moved to  blocks.0.hook_resid_pre[:]
+No edge 2
+4 --------------------------------------------------
+No edge 2
+2
+No edge 2
+New metric: 8.484763145446777
+We moved to  None
+No edge 2
+5 --------------------------------------------------
+No edge 2
+2
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=1.33352', '--using-wandb', '--wandb-run-name=agarriga-acdc-080', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+[80] python acdc/main.py --task=induction --threshold=1.33352 --using-wandb --wandb-run-name=agarriga-acdc-080 --wandb-group-name=adria-induction-3 --device=cpu --reset-network=1 --seed=424671755 --metric=kl_div --torch-num-threads=4 --wandb-dir=/training/acdc --wandb-mode=online --zero-ablation
+WARNING:root:cache_all is deprecated and will eventually be removed, use add_caching_hooks or run_with_cache
+/media/lhbac29/auto-circuit/acdc/TLACDCExperiment.py:139: UserWarning:
+
+We shall overwrite the ref_ds with zeros.
+
+WARNING:root:cache_all is deprecated and will eventually be removed, use add_caching_hooks or run_with_cache
+wandb: Currently logged in as: thienenpi280220 (thiennp3-hcmus). Use `wandb login --relogin` to force relogin
+wandb: WARNING Path /training/acdc/wandb/ wasn't writable, using system temp directory.
+wandb: WARNING Path /training/acdc/wandb/ wasn't writable, using system temp directory
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.30.0 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.13.11
+wandb: Run data is saved locally in /tmp/wandb/run-20261014_070232-xhmhmihk
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run agarriga-acdc-080
+wandb: ⭐️ View project at https://wandb.ai/thiennp3-hcmus/acdc
+wandb: 🚀 View run at https://wandb.ai/thiennp3-hcmus/acdc/runs/xhmhmihk
+/media/lhbac29/auto-circuit/acdc/TLACDCExperiment.py:772: UserWarning:
+
+Finished iterating
+
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: \ 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: | 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: / 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: - 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: \ 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: | 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: / 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: - 0.026 MB of 0.026 MB uploaded (0.000 MB deduped)wandb: 
+wandb: Run history:
+wandb:            cur_metric █▇▄▃▃▃▃▃▃▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: experiment.cur_metric ██▆▅▅▄▄▃▃▃▃▃▃▃▃▃▁▁▁
+wandb:             num_edges ███████████▇▇▇▇▇▇▇▆▅▅▄▃▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁
+wandb:       num_edges_total ████▇▇▇▇▆▆▆▆▆▅▅▅▅▃▁
+wandb: 
+wandb: Run summary:
+wandb:            cur_metric 8.48476
+wandb: experiment.cur_metric 8.48476
+wandb:             num_edges 2
+wandb:       num_edges_total 271
+wandb: 
+wandb: 🚀 View run agarriga-acdc-080 at: https://wandb.ai/thiennp3-hcmus/acdc/runs/xhmhmihk
+wandb: Synced 6 W&B file(s), 2 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: /tmp/wandb/run-20261014_070232-xhmhmihk/logs
+Running outside of colab
+Running as a script
+Loaded pretrained model redwood_attn_2l into HookedTransformer
+dict_keys(['blocks.1.hook_resid_post', 'blocks.1.attn.hook_result', 'blocks.1.attn.hook_q', 'blocks.1.hook_q_input', 'blocks.1.attn.hook_k', 'blocks.1.hook_k_input', 'blocks.1.attn.hook_v', 'blocks.1.hook_v_input', 'blocks.0.attn.hook_result', 'blocks.0.attn.hook_q', 'blocks.0.hook_q_input', 'blocks.0.attn.hook_k', 'blocks.0.hook_k_input', 'blocks.0.attn.hook_v', 'blocks.0.hook_v_input', 'blocks.0.hook_resid_pre'])
+ln_final.hook_normalized
+ln_final.hook_scale
+blocks.1.hook_resid_post
+blocks.1.hook_attn_out
+blocks.1.attn.hook_result
+blocks.1.attn.hook_z
+blocks.1.attn.hook_pattern
+blocks.1.attn.hook_attn_scores
+blocks.1.attn.hook_v
+blocks.1.attn.hook_k
+blocks.1.attn.hook_q
+blocks.1.ln1.hook_normalized
+blocks.1.ln1.hook_scale
+blocks.1.hook_v_input
+blocks.1.hook_k_input
+blocks.1.hook_q_input
+blocks.1.hook_resid_pre
+blocks.0.hook_resid_post
+blocks.0.hook_attn_out
+blocks.0.attn.hook_result
+blocks.0.attn.hook_z
+blocks.0.attn.hook_pattern
+blocks.0.attn.hook_attn_scores
+blocks.0.attn.hook_v
+blocks.0.attn.hook_k
+blocks.0.attn.hook_q
+blocks.0.ln1.hook_normalized
+blocks.0.ln1.hook_scale
+blocks.0.hook_v_input
+blocks.0.hook_k_input
+blocks.0.hook_q_input
+blocks.0.hook_resid_pre
+hook_pos_embed
+hook_embed
+self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:])
+Adding sender hooks...
+Done corrupting things
+Adding sender hooks...
+No edge 305
+No edge 305
+New metric: 14.57758903503418
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 7]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 7] is 14.206900596618652 (and current metric 14.57758903503418)
+Result is -0.37068843841552734...so removing connection
+No edge 304
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 6]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 6] is 13.725497245788574 (and current metric 14.206900596618652)
+Result is -0.4814033508300781...so removing connection
+No edge 303
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 5] is 15.258221626281738 (and current metric 13.725497245788574)
+Result is 1.532724380493164...so keeping connection
+No edge 303
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 4]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 4] is 12.531143188476562 (and current metric 13.725497245788574)
+Result is -1.1943540573120117...so removing connection
+No edge 302
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 3]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 3] is 11.637913703918457 (and current metric 12.531143188476562)
+Result is -0.8932294845581055...so removing connection
+No edge 301
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 2]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 2] is 11.610753059387207 (and current metric 11.637913703918457)
+Result is -0.02716064453125...so removing connection
+No edge 300
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 1]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 1] is 10.845948219299316 (and current metric 11.610753059387207)
+Result is -0.7648048400878906...so removing connection
+No edge 299
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 0]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 0] is 10.439008712768555 (and current metric 10.845948219299316)
+Result is -0.4069395065307617...so removing connection
+No edge 298
+No edge 298
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 7]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 7] is 10.253143310546875 (and current metric 10.439008712768555)
+Result is -0.1858654022216797...so removing connection
+No edge 297
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 6]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 6] is 10.336631774902344 (and current metric 10.253143310546875)
+Result is 0.08348846435546875...so removing connection
+No edge 296
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 5] is 10.301681518554688 (and current metric 10.336631774902344)
+Result is -0.03495025634765625...so removing connection
+No edge 295
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 4]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 4] is 10.311141014099121 (and current metric 10.301681518554688)
+Result is 0.009459495544433594...so removing connection
+No edge 294
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 3]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 3] is 10.26331901550293 (and current metric 10.311141014099121)
+Result is -0.047821998596191406...so removing connection
+No edge 293
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 2]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 2] is 10.185833930969238 (and current metric 10.26331901550293)
+Result is -0.0774850845336914...so removing connection
+No edge 292
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 1]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 1] is 10.147442817687988 (and current metric 10.185833930969238)
+Result is -0.03839111328125...so removing connection
+No edge 291
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 0]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 0] is 10.154695510864258 (and current metric 10.147442817687988)
+Result is 0.007252693176269531...so removing connection
+No edge 290
+No edge 290
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.hook_resid_pre, [:]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.hook_resid_pre [:] is 12.8596830368042 (and current metric 10.154695510864258)
+Result is 2.7049875259399414...so keeping connection
+No edge 290
+No edge 290
+We moved to  blocks.1.attn.hook_result[:, :, 7]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 6]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 5]
+No edge 290
+0 --------------------------------------------------
+No edge 290
+290
+No edge 290
+New metric: 10.154695510864258
+No edge 290
+No edge 290
+No edge 290
+We moved to  blocks.1.attn.hook_result[:, :, 4]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 3]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 2]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 1]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 0]
+No edge 290
+No edge 290
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 7]
+No edge 290
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 6]
+No edge 289
+No edge 288
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 5]
+No edge 288
+1 --------------------------------------------------
+No edge 288
+288
+No edge 288
+New metric: 10.154695510864258
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.hook_v_input, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.attn.hook_v, [:, :, 5]))
+
+Metric after removing connection to blocks.1.hook_v_input [:, :, 5] is 8.484763145446777 (and current metric 10.154695510864258)
+Result is -1.6699323654174805...so removing connection
+No edge 287
+No edge 287
+We moved to  blocks.1.attn.hook_v[:, :, 4]
+No edge 287
+No edge 286
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 3]
+No edge 286
+No edge 285
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 2]
+No edge 285
+No edge 284
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 1]
+No edge 284
+No edge 283
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 0]
+No edge 283
+No edge 282
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 7]
+No edge 282
+No edge 281
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 6]
+No edge 281
+No edge 280
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 5]
+No edge 280
+2 --------------------------------------------------
+No edge 280
+280
+No edge 280
+New metric: 8.484763145446777
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.hook_k_input, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.attn.hook_k, [:, :, 5]))
+
+Metric after removing connection to blocks.1.hook_k_input [:, :, 5] is 8.484763145446777 (and current metric 8.484763145446777)
+Result is 0.0...so removing connection
+No edge 279
+No edge 279
+We moved to  blocks.1.attn.hook_k[:, :, 4]
+No edge 279
+No edge 278
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 3]
+No edge 278
+No edge 277
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 2]
+No edge 277
+No edge 276
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 1]
+No edge 276
+No edge 275
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 0]
+No edge 275
+No edge 274
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 7]
+No edge 274
+No edge 273
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 6]
+No edge 273
+No edge 272
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 5]
+No edge 272
+3 --------------------------------------------------
+No edge 272
+272
+No edge 272
+New metric: 8.484763145446777
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.hook_q_input, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.attn.hook_q, [:, :, 5]))
+
+Metric after removing connection to blocks.1.hook_q_input [:, :, 5] is 8.484763145446777 (and current metric 8.484763145446777)
+Result is 0.0...so removing connection
+No edge 271
+No edge 271
+We moved to  blocks.1.attn.hook_q[:, :, 4]
+No edge 271
+No edge 270
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 3]
+No edge 270
+No edge 269
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 2]
+No edge 269
+No edge 268
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 1]
+No edge 268
+No edge 267
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 0]
+No edge 267
+No edge 266
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 7]
+No edge 266
+No edge 257
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 6]
+No edge 257
+No edge 248
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 5]
+No edge 248
+No edge 239
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 4]
+No edge 239
+No edge 230
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 3]
+No edge 230
+No edge 221
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 2]
+No edge 221
+No edge 212
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 1]
+No edge 212
+No edge 203
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 0]
+No edge 203
+No edge 194
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 7]
+No edge 194
+No edge 185
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 6]
+No edge 185
+No edge 176
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 5]
+No edge 176
+No edge 167
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 4]
+No edge 167
+No edge 158
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 3]
+No edge 158
+No edge 149
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 2]
+No edge 149
+No edge 140
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 1]
+No edge 140
+No edge 131
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 0]
+No edge 131
+No edge 122
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 7]
+No edge 122
+No edge 113
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 6]
+No edge 113
+No edge 104
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 5]
+No edge 104
+No edge 95
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 4]
+No edge 95
+No edge 86
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 3]
+No edge 86
+No edge 77
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 2]
+No edge 77
+No edge 68
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 1]
+No edge 68
+No edge 59
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 0]
+No edge 59
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 7]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 6]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 5]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 4]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 3]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 2]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 1]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 0]
+No edge 50
+No edge 50
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 7]
+No edge 50
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 6]
+No edge 49
+No edge 48
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 5]
+No edge 48
+No edge 47
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 4]
+No edge 47
+No edge 46
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 3]
+No edge 46
+No edge 45
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 2]
+No edge 45
+No edge 44
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 1]
+No edge 44
+No edge 43
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 0]
+No edge 43
+No edge 42
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 7]
+No edge 42
+No edge 41
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 6]
+No edge 41
+No edge 40
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 5]
+No edge 40
+No edge 39
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 4]
+No edge 39
+No edge 38
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 3]
+No edge 38
+No edge 37
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 2]
+No edge 37
+No edge 36
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 1]
+No edge 36
+No edge 35
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 0]
+No edge 35
+No edge 34
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 7]
+No edge 34
+No edge 33
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 6]
+No edge 33
+No edge 32
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 5]
+No edge 32
+No edge 31
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 4]
+No edge 31
+No edge 30
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 3]
+No edge 30
+No edge 29
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 2]
+No edge 29
+No edge 28
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 1]
+No edge 28
+No edge 27
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 0]
+No edge 27
+No edge 26
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 7]
+No edge 26
+No edge 25
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 6]
+No edge 25
+No edge 24
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 5]
+No edge 24
+No edge 23
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 4]
+No edge 23
+No edge 22
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 3]
+No edge 22
+No edge 21
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 2]
+No edge 21
+No edge 20
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 1]
+No edge 20
+No edge 19
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 0]
+No edge 19
+No edge 18
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 7]
+No edge 18
+No edge 17
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 6]
+No edge 17
+No edge 16
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 5]
+No edge 16
+No edge 15
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 4]
+No edge 15
+No edge 14
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 3]
+No edge 14
+No edge 13
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 2]
+No edge 13
+No edge 12
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 1]
+No edge 12
+No edge 11
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 0]
+No edge 11
+No edge 10
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 7]
+No edge 10
+No edge 9
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 6]
+No edge 9
+No edge 8
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 5]
+No edge 8
+No edge 7
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 4]
+No edge 7
+No edge 6
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 3]
+No edge 6
+No edge 5
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 2]
+No edge 5
+No edge 4
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 1]
+No edge 4
+No edge 3
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 0]
+No edge 3
+No edge 2
+But it's bad
+We moved to  blocks.0.hook_resid_pre[:]
+No edge 2
+4 --------------------------------------------------
+No edge 2
+2
+No edge 2
+New metric: 8.484763145446777
+We moved to  None
+No edge 2
+5 --------------------------------------------------
+No edge 2
+2
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=1.77828', '--using-wandb', '--wandb-run-name=agarriga-acdc-081', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+[81] python acdc/main.py --task=induction --threshold=1.77828 --using-wandb --wandb-run-name=agarriga-acdc-081 --wandb-group-name=adria-induction-3 --device=cpu --reset-network=1 --seed=424671755 --metric=kl_div --torch-num-threads=4 --wandb-dir=/training/acdc --wandb-mode=online --zero-ablation
+WARNING:root:cache_all is deprecated and will eventually be removed, use add_caching_hooks or run_with_cache
+/media/lhbac29/auto-circuit/acdc/TLACDCExperiment.py:139: UserWarning:
+
+We shall overwrite the ref_ds with zeros.
+
+WARNING:root:cache_all is deprecated and will eventually be removed, use add_caching_hooks or run_with_cache
+wandb: Currently logged in as: thienenpi280220 (thiennp3-hcmus). Use `wandb login --relogin` to force relogin
+wandb: WARNING Path /training/acdc/wandb/ wasn't writable, using system temp directory.
+wandb: WARNING Path /training/acdc/wandb/ wasn't writable, using system temp directory
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.30.0 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.13.11
+wandb: Run data is saved locally in /tmp/wandb/run-20261014_072649-17ivglq6
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run agarriga-acdc-081
+wandb: ⭐️ View project at https://wandb.ai/thiennp3-hcmus/acdc
+wandb: 🚀 View run at https://wandb.ai/thiennp3-hcmus/acdc/runs/17ivglq6
+/media/lhbac29/auto-circuit/acdc/TLACDCExperiment.py:772: UserWarning:
+
+Finished iterating
+
+wandb: Waiting for W&B process to finish... (success).
+wandb: 
+wandb: Run history:
+wandb:            cur_metric ▇█▂▁▁▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+wandb: experiment.cur_metric ▆█▆▄▄▂▁▁▁▁▁▂▂▂▃▃
+wandb:             num_edges ██████████▇▇▇▇▇▇▇▆▅▅▄▃▃▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁
+wandb:       num_edges_total █▇▇▇▆▅▅▅▄▃▃▃▂▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:            cur_metric 11.01794
+wandb: experiment.cur_metric 11.01794
+wandb:             num_edges 1
+wandb:       num_edges_total 289
+wandb: 
+wandb: 🚀 View run agarriga-acdc-081 at: https://wandb.ai/thiennp3-hcmus/acdc/runs/17ivglq6
+wandb: Synced 6 W&B file(s), 1 media file(s), 3 artifact file(s) and 0 other file(s)
+wandb: Find logs at: /tmp/wandb/run-20261014_072649-17ivglq6/logs
+Running outside of colab
+Running as a script
+Loaded pretrained model redwood_attn_2l into HookedTransformer
+dict_keys(['blocks.1.hook_resid_post', 'blocks.1.attn.hook_result', 'blocks.1.attn.hook_q', 'blocks.1.hook_q_input', 'blocks.1.attn.hook_k', 'blocks.1.hook_k_input', 'blocks.1.attn.hook_v', 'blocks.1.hook_v_input', 'blocks.0.attn.hook_result', 'blocks.0.attn.hook_q', 'blocks.0.hook_q_input', 'blocks.0.attn.hook_k', 'blocks.0.hook_k_input', 'blocks.0.attn.hook_v', 'blocks.0.hook_v_input', 'blocks.0.hook_resid_pre'])
+ln_final.hook_normalized
+ln_final.hook_scale
+blocks.1.hook_resid_post
+blocks.1.hook_attn_out
+blocks.1.attn.hook_result
+blocks.1.attn.hook_z
+blocks.1.attn.hook_pattern
+blocks.1.attn.hook_attn_scores
+blocks.1.attn.hook_v
+blocks.1.attn.hook_k
+blocks.1.attn.hook_q
+blocks.1.ln1.hook_normalized
+blocks.1.ln1.hook_scale
+blocks.1.hook_v_input
+blocks.1.hook_k_input
+blocks.1.hook_q_input
+blocks.1.hook_resid_pre
+blocks.0.hook_resid_post
+blocks.0.hook_attn_out
+blocks.0.attn.hook_result
+blocks.0.attn.hook_z
+blocks.0.attn.hook_pattern
+blocks.0.attn.hook_attn_scores
+blocks.0.attn.hook_v
+blocks.0.attn.hook_k
+blocks.0.attn.hook_q
+blocks.0.ln1.hook_normalized
+blocks.0.ln1.hook_scale
+blocks.0.hook_v_input
+blocks.0.hook_k_input
+blocks.0.hook_q_input
+blocks.0.hook_resid_pre
+hook_pos_embed
+hook_embed
+self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:])
+Adding sender hooks...
+Done corrupting things
+Adding sender hooks...
+No edge 305
+No edge 305
+New metric: 14.57758903503418
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 7]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 7] is 14.206900596618652 (and current metric 14.57758903503418)
+Result is -0.37068843841552734...so removing connection
+No edge 304
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 6]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 6] is 13.725497245788574 (and current metric 14.206900596618652)
+Result is -0.4814033508300781...so removing connection
+No edge 303
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 5] is 15.258221626281738 (and current metric 13.725497245788574)
+Result is 1.532724380493164...so removing connection
+No edge 302
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 4]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 4] is 13.764702796936035 (and current metric 15.258221626281738)
+Result is -1.4935188293457031...so removing connection
+No edge 301
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 3]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 3] is 12.133612632751465 (and current metric 13.764702796936035)
+Result is -1.6310901641845703...so removing connection
+No edge 300
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 2]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 2] is 12.050543785095215 (and current metric 12.133612632751465)
+Result is -0.08306884765625...so removing connection
+No edge 299
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 1]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 1] is 10.529842376708984 (and current metric 12.050543785095215)
+Result is -1.5207014083862305...so removing connection
+No edge 298
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 0]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 0] is 9.839950561523438 (and current metric 10.529842376708984)
+Result is -0.6898918151855469...so removing connection
+No edge 297
+No edge 297
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 7]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 7] is 9.666488647460938 (and current metric 9.839950561523438)
+Result is -0.1734619140625...so removing connection
+No edge 296
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 6]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 6] is 9.988592147827148 (and current metric 9.666488647460938)
+Result is 0.32210350036621094...so removing connection
+No edge 295
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 5] is 10.0427827835083 (and current metric 9.988592147827148)
+Result is 0.054190635681152344...so removing connection
+No edge 294
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 4]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 4] is 10.007457733154297 (and current metric 10.0427827835083)
+Result is -0.035325050354003906...so removing connection
+No edge 293
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 3]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 3] is 10.25223445892334 (and current metric 10.007457733154297)
+Result is 0.24477672576904297...so removing connection
+No edge 292
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 2]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 2] is 10.127577781677246 (and current metric 10.25223445892334)
+Result is -0.12465667724609375...so removing connection
+No edge 291
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 1]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 1] is 10.412454605102539 (and current metric 10.127577781677246)
+Result is 0.28487682342529297...so removing connection
+No edge 290
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 0]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 0] is 11.017940521240234 (and current metric 10.412454605102539)
+Result is 0.6054859161376953...so removing connection
+No edge 289
+No edge 289
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.hook_resid_pre, [:]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.hook_resid_pre [:] is 13.693520545959473 (and current metric 11.017940521240234)
+Result is 2.6755800247192383...so keeping connection
+No edge 289
+No edge 289
+We moved to  blocks.1.attn.hook_result[:, :, 7]
+No edge 289
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 6]
+No edge 289
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 5]
+No edge 289
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 4]
+No edge 289
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 3]
+No edge 289
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 2]
+No edge 289
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 1]
+No edge 289
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 0]
+No edge 289
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 7]
+No edge 289
+No edge 288
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 6]
+No edge 288
+No edge 287
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 5]
+No edge 287
+No edge 286
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 4]
+No edge 286
+No edge 285
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 3]
+No edge 285
+No edge 284
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 2]
+No edge 284
+No edge 283
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 1]
+No edge 283
+No edge 282
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 0]
+No edge 282
+No edge 281
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 7]
+No edge 281
+No edge 280
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 6]
+No edge 280
+No edge 279
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 5]
+No edge 279
+No edge 278
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 4]
+No edge 278
+No edge 277
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 3]
+No edge 277
+No edge 276
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 2]
+No edge 276
+No edge 275
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 1]
+No edge 275
+No edge 274
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 0]
+No edge 274
+No edge 273
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 7]
+No edge 273
+No edge 272
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 6]
+No edge 272
+No edge 271
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 5]
+No edge 271
+No edge 270
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 4]
+No edge 270
+No edge 269
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 3]
+No edge 269
+No edge 268
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 2]
+No edge 268
+No edge 267
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 1]
+No edge 267
+No edge 266
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 0]
+No edge 266
+No edge 265
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 7]
+No edge 265
+No edge 256
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 6]
+No edge 256
+No edge 247
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 5]
+No edge 247
+No edge 238
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 4]
+No edge 238
+No edge 229
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 3]
+No edge 229
+No edge 220
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 2]
+No edge 220
+No edge 211
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 1]
+No edge 211
+No edge 202
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 0]
+No edge 202
+No edge 193
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 7]
+No edge 193
+No edge 184
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 6]
+No edge 184
+No edge 175
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 5]
+No edge 175
+No edge 166
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 4]
+No edge 166
+No edge 157
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 3]
+No edge 157
+No edge 148
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 2]
+No edge 148
+No edge 139
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 1]
+No edge 139
+No edge 130
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 0]
+No edge 130
+No edge 121
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 7]
+No edge 121
+No edge 112
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 6]
+No edge 112
+No edge 103
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 5]
+No edge 103
+No edge 94
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 4]
+No edge 94
+No edge 85
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 3]
+No edge 85
+No edge 76
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 2]
+No edge 76
+No edge 67
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 1]
+No edge 67
+No edge 58
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 0]
+No edge 58
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 7]
+No edge 49
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 6]
+No edge 49
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 5]
+No edge 49
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 4]
+No edge 49
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 3]
+No edge 49
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 2]
+No edge 49
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 1]
+No edge 49
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 0]
+No edge 49
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 7]
+No edge 49
+No edge 48
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 6]
+No edge 48
+No edge 47
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 5]
+No edge 47
+No edge 46
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 4]
+No edge 46
+No edge 45
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 3]
+No edge 45
+No edge 44
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 2]
+No edge 44
+No edge 43
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 1]
+No edge 43
+No edge 42
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 0]
+No edge 42
+No edge 41
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 7]
+No edge 41
+No edge 40
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 6]
+No edge 40
+No edge 39
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 5]
+No edge 39
+No edge 38
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 4]
+No edge 38
+No edge 37
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 3]
+No edge 37
+No edge 36
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 2]
+No edge 36
+No edge 35
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 1]
+No edge 35
+No edge 34
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 0]
+No edge 34
+No edge 33
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 7]
+No edge 33
+No edge 32
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 6]
+No edge 32
+No edge 31
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 5]
+No edge 31
+No edge 30
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 4]
+No edge 30
+No edge 29
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 3]
+No edge 29
+No edge 28
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 2]
+No edge 28
+No edge 27
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 1]
+No edge 27
+No edge 26
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 0]
+No edge 26
+No edge 25
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 7]
+No edge 25
+No edge 24
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 6]
+No edge 24
+No edge 23
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 5]
+No edge 23
+No edge 22
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 4]
+No edge 22
+No edge 21
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 3]
+No edge 21
+No edge 20
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 2]
+No edge 20
+No edge 19
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 1]
+No edge 19
+No edge 18
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 0]
+No edge 18
+No edge 17
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 7]
+No edge 17
+No edge 16
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 6]
+No edge 16
+No edge 15
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 5]
+No edge 15
+No edge 14
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 4]
+No edge 14
+No edge 13
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 3]
+No edge 13
+No edge 12
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 2]
+No edge 12
+No edge 11
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 1]
+No edge 11
+No edge 10
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 0]
+No edge 10
+No edge 9
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 7]
+No edge 9
+No edge 8
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 6]
+No edge 8
+No edge 7
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 5]
+No edge 7
+No edge 6
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 4]
+No edge 6
+No edge 5
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 3]
+No edge 5
+No edge 4
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 2]
+No edge 4
+No edge 3
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 1]
+No edge 3
+No edge 2
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 0]
+No edge 2
+No edge 1
+But it's bad
+We moved to  blocks.0.hook_resid_pre[:]
+No edge 1
+0 --------------------------------------------------
+No edge 1
+1
+No edge 1
+New metric: 11.017940521240234
+We moved to  None
+No edge 1
+1 --------------------------------------------------
+No edge 1
+1
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=2.37137', '--using-wandb', '--wandb-run-name=agarriga-acdc-082', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+[82] python acdc/main.py --task=induction --threshold=2.37137 --using-wandb --wandb-run-name=agarriga-acdc-082 --wandb-group-name=adria-induction-3 --device=cpu --reset-network=1 --seed=424671755 --metric=kl_div --torch-num-threads=4 --wandb-dir=/training/acdc --wandb-mode=online --zero-ablation
+WARNING:root:cache_all is deprecated and will eventually be removed, use add_caching_hooks or run_with_cache
+/media/lhbac29/auto-circuit/acdc/TLACDCExperiment.py:139: UserWarning:
+
+We shall overwrite the ref_ds with zeros.
+
+WARNING:root:cache_all is deprecated and will eventually be removed, use add_caching_hooks or run_with_cache
+wandb: Currently logged in as: thienenpi280220 (thiennp3-hcmus). Use `wandb login --relogin` to force relogin
+wandb: WARNING Path /training/acdc/wandb/ wasn't writable, using system temp directory.
+wandb: WARNING Path /training/acdc/wandb/ wasn't writable, using system temp directory
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.30.0 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.13.11
+wandb: Run data is saved locally in /tmp/wandb/run-20261014_075023-u18bolhu
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run agarriga-acdc-082
+wandb: ⭐️ View project at https://wandb.ai/thiennp3-hcmus/acdc
+wandb: 🚀 View run at https://wandb.ai/thiennp3-hcmus/acdc/runs/u18bolhu
+/media/lhbac29/auto-circuit/acdc/TLACDCExperiment.py:772: UserWarning:
+
+Finished iterating
+
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.013 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: \ 0.013 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: | 0.013 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: / 0.013 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: - 0.013 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: \ 0.013 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: | 0.013 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: / 0.013 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: - 0.013 MB of 0.013 MB uploaded (0.000 MB deduped)wandb: 
+wandb: Run history:
+wandb:            cur_metric ▇█▂▁▁▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
+wandb: experiment.cur_metric ▆█▆▄▄▂▁▁▁▁▁▂▂▂▃▃
+wandb:             num_edges ██████████▇▇▇▇▇▇▇▆▅▅▄▃▃▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁
+wandb:       num_edges_total █▇▇▇▆▅▅▅▄▃▃▃▂▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:            cur_metric 11.01794
+wandb: experiment.cur_metric 11.01794
+wandb:             num_edges 1
+wandb:       num_edges_total 289
+wandb: 
+wandb: 🚀 View run agarriga-acdc-082 at: https://wandb.ai/thiennp3-hcmus/acdc/runs/u18bolhu
+wandb: Synced 6 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: /tmp/wandb/run-20261014_075023-u18bolhu/logs
+Running outside of colab
+Running as a script
+Loaded pretrained model redwood_attn_2l into HookedTransformer
+dict_keys(['blocks.1.hook_resid_post', 'blocks.1.attn.hook_result', 'blocks.1.attn.hook_q', 'blocks.1.hook_q_input', 'blocks.1.attn.hook_k', 'blocks.1.hook_k_input', 'blocks.1.attn.hook_v', 'blocks.1.hook_v_input', 'blocks.0.attn.hook_result', 'blocks.0.attn.hook_q', 'blocks.0.hook_q_input', 'blocks.0.attn.hook_k', 'blocks.0.hook_k_input', 'blocks.0.attn.hook_v', 'blocks.0.hook_v_input', 'blocks.0.hook_resid_pre'])
+ln_final.hook_normalized
+ln_final.hook_scale
+blocks.1.hook_resid_post
+blocks.1.hook_attn_out
+blocks.1.attn.hook_result
+blocks.1.attn.hook_z
+blocks.1.attn.hook_pattern
+blocks.1.attn.hook_attn_scores
+blocks.1.attn.hook_v
+blocks.1.attn.hook_k
+blocks.1.attn.hook_q
+blocks.1.ln1.hook_normalized
+blocks.1.ln1.hook_scale
+blocks.1.hook_v_input
+blocks.1.hook_k_input
+blocks.1.hook_q_input
+blocks.1.hook_resid_pre
+blocks.0.hook_resid_post
+blocks.0.hook_attn_out
+blocks.0.attn.hook_result
+blocks.0.attn.hook_z
+blocks.0.attn.hook_pattern
+blocks.0.attn.hook_attn_scores
+blocks.0.attn.hook_v
+blocks.0.attn.hook_k
+blocks.0.attn.hook_q
+blocks.0.ln1.hook_normalized
+blocks.0.ln1.hook_scale
+blocks.0.hook_v_input
+blocks.0.hook_k_input
+blocks.0.hook_q_input
+blocks.0.hook_resid_pre
+hook_pos_embed
+hook_embed
+self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:])
+Adding sender hooks...
+Done corrupting things
+Adding sender hooks...
+No edge 305
+No edge 305
+New metric: 14.57758903503418
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 7]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 7] is 14.206900596618652 (and current metric 14.57758903503418)
+Result is -0.37068843841552734...so removing connection
+No edge 304
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 6]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 6] is 13.725497245788574 (and current metric 14.206900596618652)
+Result is -0.4814033508300781...so removing connection
+No edge 303
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 5] is 15.258221626281738 (and current metric 13.725497245788574)
+Result is 1.532724380493164...so removing connection
+No edge 302
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 4]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 4] is 13.764702796936035 (and current metric 15.258221626281738)
+Result is -1.4935188293457031...so removing connection
+No edge 301
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 3]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 3] is 12.133612632751465 (and current metric 13.764702796936035)
+Result is -1.6310901641845703...so removing connection
+No edge 300
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 2]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 2] is 12.050543785095215 (and current metric 12.133612632751465)
+Result is -0.08306884765625...so removing connection
+No edge 299
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 1]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 1] is 10.529842376708984 (and current metric 12.050543785095215)
+Result is -1.5207014083862305...so removing connection
+No edge 298
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 0]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 0] is 9.839950561523438 (and current metric 10.529842376708984)
+Result is -0.6898918151855469...so removing connection
+No edge 297
+No edge 297
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 7]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 7] is 9.666488647460938 (and current metric 9.839950561523438)
+Result is -0.1734619140625...so removing connection
+No edge 296
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 6]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 6] is 9.988592147827148 (and current metric 9.666488647460938)
+Result is 0.32210350036621094...so removing connection
+No edge 295
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 5] is 10.0427827835083 (and current metric 9.988592147827148)
+Result is 0.054190635681152344...so removing connection
+No edge 294
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 4]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 4] is 10.007457733154297 (and current metric 10.0427827835083)
+Result is -0.035325050354003906...so removing connection
+No edge 293
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 3]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 3] is 10.25223445892334 (and current metric 10.007457733154297)
+Result is 0.24477672576904297...so removing connection
+No edge 292
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 2]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 2] is 10.127577781677246 (and current metric 10.25223445892334)
+Result is -0.12465667724609375...so removing connection
+No edge 291
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 1]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 1] is 10.412454605102539 (and current metric 10.127577781677246)
+Result is 0.28487682342529297...so removing connection
+No edge 290
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 0]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 0] is 11.017940521240234 (and current metric 10.412454605102539)
+Result is 0.6054859161376953...so removing connection
+No edge 289
+No edge 289
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.hook_resid_pre, [:]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.hook_resid_pre [:] is 13.693520545959473 (and current metric 11.017940521240234)
+Result is 2.6755800247192383...so keeping connection
+No edge 289
+No edge 289
+We moved to  blocks.1.attn.hook_result[:, :, 7]
+No edge 289
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 6]
+No edge 289
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 5]
+No edge 289
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 4]
+No edge 289
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 3]
+No edge 289
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 2]
+No edge 289
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 1]
+No edge 289
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 0]
+No edge 289
+No edge 289
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 7]
+No edge 289
+No edge 288
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 6]
+No edge 288
+No edge 287
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 5]
+No edge 287
+No edge 286
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 4]
+No edge 286
+No edge 285
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 3]
+No edge 285
+No edge 284
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 2]
+No edge 284
+No edge 283
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 1]
+No edge 283
+No edge 282
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 0]
+No edge 282
+No edge 281
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 7]
+No edge 281
+No edge 280
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 6]
+No edge 280
+No edge 279
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 5]
+No edge 279
+No edge 278
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 4]
+No edge 278
+No edge 277
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 3]
+No edge 277
+No edge 276
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 2]
+No edge 276
+No edge 275
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 1]
+No edge 275
+No edge 274
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 0]
+No edge 274
+No edge 273
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 7]
+No edge 273
+No edge 272
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 6]
+No edge 272
+No edge 271
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 5]
+No edge 271
+No edge 270
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 4]
+No edge 270
+No edge 269
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 3]
+No edge 269
+No edge 268
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 2]
+No edge 268
+No edge 267
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 1]
+No edge 267
+No edge 266
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 0]
+No edge 266
+No edge 265
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 7]
+No edge 265
+No edge 256
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 6]
+No edge 256
+No edge 247
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 5]
+No edge 247
+No edge 238
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 4]
+No edge 238
+No edge 229
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 3]
+No edge 229
+No edge 220
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 2]
+No edge 220
+No edge 211
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 1]
+No edge 211
+No edge 202
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 0]
+No edge 202
+No edge 193
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 7]
+No edge 193
+No edge 184
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 6]
+No edge 184
+No edge 175
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 5]
+No edge 175
+No edge 166
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 4]
+No edge 166
+No edge 157
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 3]
+No edge 157
+No edge 148
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 2]
+No edge 148
+No edge 139
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 1]
+No edge 139
+No edge 130
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 0]
+No edge 130
+No edge 121
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 7]
+No edge 121
+No edge 112
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 6]
+No edge 112
+No edge 103
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 5]
+No edge 103
+No edge 94
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 4]
+No edge 94
+No edge 85
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 3]
+No edge 85
+No edge 76
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 2]
+No edge 76
+No edge 67
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 1]
+No edge 67
+No edge 58
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 0]
+No edge 58
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 7]
+No edge 49
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 6]
+No edge 49
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 5]
+No edge 49
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 4]
+No edge 49
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 3]
+No edge 49
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 2]
+No edge 49
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 1]
+No edge 49
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 0]
+No edge 49
+No edge 49
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 7]
+No edge 49
+No edge 48
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 6]
+No edge 48
+No edge 47
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 5]
+No edge 47
+No edge 46
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 4]
+No edge 46
+No edge 45
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 3]
+No edge 45
+No edge 44
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 2]
+No edge 44
+No edge 43
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 1]
+No edge 43
+No edge 42
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 0]
+No edge 42
+No edge 41
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 7]
+No edge 41
+No edge 40
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 6]
+No edge 40
+No edge 39
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 5]
+No edge 39
+No edge 38
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 4]
+No edge 38
+No edge 37
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 3]
+No edge 37
+No edge 36
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 2]
+No edge 36
+No edge 35
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 1]
+No edge 35
+No edge 34
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 0]
+No edge 34
+No edge 33
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 7]
+No edge 33
+No edge 32
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 6]
+No edge 32
+No edge 31
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 5]
+No edge 31
+No edge 30
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 4]
+No edge 30
+No edge 29
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 3]
+No edge 29
+No edge 28
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 2]
+No edge 28
+No edge 27
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 1]
+No edge 27
+No edge 26
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 0]
+No edge 26
+No edge 25
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 7]
+No edge 25
+No edge 24
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 6]
+No edge 24
+No edge 23
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 5]
+No edge 23
+No edge 22
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 4]
+No edge 22
+No edge 21
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 3]
+No edge 21
+No edge 20
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 2]
+No edge 20
+No edge 19
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 1]
+No edge 19
+No edge 18
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 0]
+No edge 18
+No edge 17
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 7]
+No edge 17
+No edge 16
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 6]
+No edge 16
+No edge 15
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 5]
+No edge 15
+No edge 14
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 4]
+No edge 14
+No edge 13
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 3]
+No edge 13
+No edge 12
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 2]
+No edge 12
+No edge 11
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 1]
+No edge 11
+No edge 10
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 0]
+No edge 10
+No edge 9
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 7]
+No edge 9
+No edge 8
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 6]
+No edge 8
+No edge 7
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 5]
+No edge 7
+No edge 6
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 4]
+No edge 6
+No edge 5
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 3]
+No edge 5
+No edge 4
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 2]
+No edge 4
+No edge 3
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 1]
+No edge 3
+No edge 2
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 0]
+No edge 2
+No edge 1
+But it's bad
+We moved to  blocks.0.hook_resid_pre[:]
+No edge 1
+0 --------------------------------------------------
+No edge 1
+1
+No edge 1
+New metric: 11.017940521240234
+We moved to  None
+No edge 1
+1 --------------------------------------------------
+No edge 1
+1
+Running ['python', 'acdc/main.py', '--task=induction', '--threshold=3.16228', '--using-wandb', '--wandb-run-name=agarriga-acdc-083', '--wandb-group-name=adria-induction-3', '--device=cpu', '--reset-network=1', '--seed=424671755', '--metric=kl_div', '--torch-num-threads=4', '--wandb-dir=/training/acdc', '--wandb-mode=online', '--zero-ablation']
+[83] python acdc/main.py --task=induction --threshold=3.16228 --using-wandb --wandb-run-name=agarriga-acdc-083 --wandb-group-name=adria-induction-3 --device=cpu --reset-network=1 --seed=424671755 --metric=kl_div --torch-num-threads=4 --wandb-dir=/training/acdc --wandb-mode=online --zero-ablation
+WARNING:root:cache_all is deprecated and will eventually be removed, use add_caching_hooks or run_with_cache
+/media/lhbac29/auto-circuit/acdc/TLACDCExperiment.py:139: UserWarning:
+
+We shall overwrite the ref_ds with zeros.
+
+WARNING:root:cache_all is deprecated and will eventually be removed, use add_caching_hooks or run_with_cache
+wandb: Currently logged in as: thienenpi280220 (thiennp3-hcmus). Use `wandb login --relogin` to force relogin
+wandb: WARNING Path /training/acdc/wandb/ wasn't writable, using system temp directory.
+wandb: WARNING Path /training/acdc/wandb/ wasn't writable, using system temp directory
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.30.0 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.13.11
+wandb: Run data is saved locally in /tmp/wandb/run-20261014_081346-6299fd5f
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run agarriga-acdc-083
+wandb: ⭐️ View project at https://wandb.ai/thiennp3-hcmus/acdc
+wandb: 🚀 View run at https://wandb.ai/thiennp3-hcmus/acdc/runs/6299fd5f
+/media/lhbac29/auto-circuit/acdc/TLACDCExperiment.py:772: UserWarning:
+
+Finished iterating
+
+wandb: Waiting for W&B process to finish... (success).
+wandb: 
+wandb: Run history:
+wandb:            cur_metric ▇█▂▁▁▂▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆
+wandb: experiment.cur_metric ▆█▆▄▄▂▁▁▁▁▁▂▂▂▃▆
+wandb:             num_edges ██████████▇▇▇▇▇▇▆▆▅▄▄▃▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁
+wandb:       num_edges_total ██▇▇▆▆▅▅▄▄▃▃▂▂▁▁
+wandb: 
+wandb: Run summary:
+wandb:            cur_metric 13.69352
+wandb: experiment.cur_metric 13.69352
+wandb:             num_edges 0
+wandb:       num_edges_total 288
+wandb: 
+wandb: 🚀 View run agarriga-acdc-083 at: https://wandb.ai/thiennp3-hcmus/acdc/runs/6299fd5f
+wandb: Synced 6 W&B file(s), 0 media file(s), 3 artifact file(s) and 0 other file(s)
+wandb: Find logs at: /tmp/wandb/run-20261014_081346-6299fd5f/logs
+Running outside of colab
+Running as a script
+Loaded pretrained model redwood_attn_2l into HookedTransformer
+dict_keys(['blocks.1.hook_resid_post', 'blocks.1.attn.hook_result', 'blocks.1.attn.hook_q', 'blocks.1.hook_q_input', 'blocks.1.attn.hook_k', 'blocks.1.hook_k_input', 'blocks.1.attn.hook_v', 'blocks.1.hook_v_input', 'blocks.0.attn.hook_result', 'blocks.0.attn.hook_q', 'blocks.0.hook_q_input', 'blocks.0.attn.hook_k', 'blocks.0.hook_k_input', 'blocks.0.attn.hook_v', 'blocks.0.hook_v_input', 'blocks.0.hook_resid_pre'])
+ln_final.hook_normalized
+ln_final.hook_scale
+blocks.1.hook_resid_post
+blocks.1.hook_attn_out
+blocks.1.attn.hook_result
+blocks.1.attn.hook_z
+blocks.1.attn.hook_pattern
+blocks.1.attn.hook_attn_scores
+blocks.1.attn.hook_v
+blocks.1.attn.hook_k
+blocks.1.attn.hook_q
+blocks.1.ln1.hook_normalized
+blocks.1.ln1.hook_scale
+blocks.1.hook_v_input
+blocks.1.hook_k_input
+blocks.1.hook_q_input
+blocks.1.hook_resid_pre
+blocks.0.hook_resid_post
+blocks.0.hook_attn_out
+blocks.0.attn.hook_result
+blocks.0.attn.hook_z
+blocks.0.attn.hook_pattern
+blocks.0.attn.hook_attn_scores
+blocks.0.attn.hook_v
+blocks.0.attn.hook_k
+blocks.0.attn.hook_q
+blocks.0.ln1.hook_normalized
+blocks.0.ln1.hook_scale
+blocks.0.hook_v_input
+blocks.0.hook_k_input
+blocks.0.hook_q_input
+blocks.0.hook_resid_pre
+hook_pos_embed
+hook_embed
+self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:])
+Adding sender hooks...
+Done corrupting things
+Adding sender hooks...
+No edge 305
+No edge 305
+New metric: 14.57758903503418
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 7]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 7] is 14.206900596618652 (and current metric 14.57758903503418)
+Result is -0.37068843841552734...so removing connection
+No edge 304
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 6]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 6] is 13.725497245788574 (and current metric 14.206900596618652)
+Result is -0.4814033508300781...so removing connection
+No edge 303
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 5] is 15.258221626281738 (and current metric 13.725497245788574)
+Result is 1.532724380493164...so removing connection
+No edge 302
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 4]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 4] is 13.764702796936035 (and current metric 15.258221626281738)
+Result is -1.4935188293457031...so removing connection
+No edge 301
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 3]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 3] is 12.133612632751465 (and current metric 13.764702796936035)
+Result is -1.6310901641845703...so removing connection
+No edge 300
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 2]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 2] is 12.050543785095215 (and current metric 12.133612632751465)
+Result is -0.08306884765625...so removing connection
+No edge 299
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 1]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 1] is 10.529842376708984 (and current metric 12.050543785095215)
+Result is -1.5207014083862305...so removing connection
+No edge 298
+
+Node: cur_parent=TLACDCInterpNode(blocks.1.attn.hook_result, [:, :, 0]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.1.attn.hook_result [:, :, 0] is 9.839950561523438 (and current metric 10.529842376708984)
+Result is -0.6898918151855469...so removing connection
+No edge 297
+No edge 297
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 7]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 7] is 9.666488647460938 (and current metric 9.839950561523438)
+Result is -0.1734619140625...so removing connection
+No edge 296
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 6]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 6] is 9.988592147827148 (and current metric 9.666488647460938)
+Result is 0.32210350036621094...so removing connection
+No edge 295
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 5]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 5] is 10.0427827835083 (and current metric 9.988592147827148)
+Result is 0.054190635681152344...so removing connection
+No edge 294
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 4]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 4] is 10.007457733154297 (and current metric 10.0427827835083)
+Result is -0.035325050354003906...so removing connection
+No edge 293
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 3]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 3] is 10.25223445892334 (and current metric 10.007457733154297)
+Result is 0.24477672576904297...so removing connection
+No edge 292
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 2]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 2] is 10.127577781677246 (and current metric 10.25223445892334)
+Result is -0.12465667724609375...so removing connection
+No edge 291
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 1]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 1] is 10.412454605102539 (and current metric 10.127577781677246)
+Result is 0.28487682342529297...so removing connection
+No edge 290
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.attn.hook_result, [:, :, 0]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.attn.hook_result [:, :, 0] is 11.017940521240234 (and current metric 10.412454605102539)
+Result is 0.6054859161376953...so removing connection
+No edge 289
+No edge 289
+
+Node: cur_parent=TLACDCInterpNode(blocks.0.hook_resid_pre, [:]) (self.current_node=TLACDCInterpNode(blocks.1.hook_resid_post, [:]))
+
+Metric after removing connection to blocks.0.hook_resid_pre [:] is 13.693520545959473 (and current metric 11.017940521240234)
+Result is 2.6755800247192383...so removing connection
+No edge 288
+No edge 288
+We moved to  blocks.1.attn.hook_result[:, :, 7]
+No edge 288
+No edge 288
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 6]
+No edge 288
+No edge 288
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 5]
+No edge 288
+No edge 288
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 4]
+No edge 288
+No edge 288
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 3]
+No edge 288
+No edge 288
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 2]
+No edge 288
+No edge 288
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 1]
+No edge 288
+No edge 288
+But it's bad
+We moved to  blocks.1.attn.hook_result[:, :, 0]
+No edge 288
+No edge 288
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 7]
+No edge 288
+No edge 287
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 6]
+No edge 287
+No edge 286
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 5]
+No edge 286
+No edge 285
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 4]
+No edge 285
+No edge 284
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 3]
+No edge 284
+No edge 283
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 2]
+No edge 283
+No edge 282
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 1]
+No edge 282
+No edge 281
+But it's bad
+We moved to  blocks.1.attn.hook_v[:, :, 0]
+No edge 281
+No edge 280
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 7]
+No edge 280
+No edge 279
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 6]
+No edge 279
+No edge 278
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 5]
+No edge 278
+No edge 277
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 4]
+No edge 277
+No edge 276
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 3]
+No edge 276
+No edge 275
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 2]
+No edge 275
+No edge 274
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 1]
+No edge 274
+No edge 273
+But it's bad
+We moved to  blocks.1.attn.hook_k[:, :, 0]
+No edge 273
+No edge 272
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 7]
+No edge 272
+No edge 271
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 6]
+No edge 271
+No edge 270
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 5]
+No edge 270
+No edge 269
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 4]
+No edge 269
+No edge 268
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 3]
+No edge 268
+No edge 267
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 2]
+No edge 267
+No edge 266
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 1]
+No edge 266
+No edge 265
+But it's bad
+We moved to  blocks.1.attn.hook_q[:, :, 0]
+No edge 265
+No edge 264
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 7]
+No edge 264
+No edge 255
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 6]
+No edge 255
+No edge 246
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 5]
+No edge 246
+No edge 237
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 4]
+No edge 237
+No edge 228
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 3]
+No edge 228
+No edge 219
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 2]
+No edge 219
+No edge 210
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 1]
+No edge 210
+No edge 201
+But it's bad
+We moved to  blocks.1.hook_v_input[:, :, 0]
+No edge 201
+No edge 192
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 7]
+No edge 192
+No edge 183
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 6]
+No edge 183
+No edge 174
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 5]
+No edge 174
+No edge 165
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 4]
+No edge 165
+No edge 156
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 3]
+No edge 156
+No edge 147
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 2]
+No edge 147
+No edge 138
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 1]
+No edge 138
+No edge 129
+But it's bad
+We moved to  blocks.1.hook_k_input[:, :, 0]
+No edge 129
+No edge 120
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 7]
+No edge 120
+No edge 111
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 6]
+No edge 111
+No edge 102
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 5]
+No edge 102
+No edge 93
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 4]
+No edge 93
+No edge 84
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 3]
+No edge 84
+No edge 75
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 2]
+No edge 75
+No edge 66
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 1]
+No edge 66
+No edge 57
+But it's bad
+We moved to  blocks.1.hook_q_input[:, :, 0]
+No edge 57
+No edge 48
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 7]
+No edge 48
+No edge 48
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 6]
+No edge 48
+No edge 48
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 5]
+No edge 48
+No edge 48
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 4]
+No edge 48
+No edge 48
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 3]
+No edge 48
+No edge 48
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 2]
+No edge 48
+No edge 48
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 1]
+No edge 48
+No edge 48
+But it's bad
+We moved to  blocks.0.attn.hook_result[:, :, 0]
+No edge 48
+No edge 48
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 7]
+No edge 48
+No edge 47
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 6]
+No edge 47
+No edge 46
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 5]
+No edge 46
+No edge 45
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 4]
+No edge 45
+No edge 44
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 3]
+No edge 44
+No edge 43
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 2]
+No edge 43
+No edge 42
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 1]
+No edge 42
+No edge 41
+But it's bad
+We moved to  blocks.0.attn.hook_v[:, :, 0]
+No edge 41
+No edge 40
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 7]
+No edge 40
+No edge 39
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 6]
+No edge 39
+No edge 38
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 5]
+No edge 38
+No edge 37
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 4]
+No edge 37
+No edge 36
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 3]
+No edge 36
+No edge 35
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 2]
+No edge 35
+No edge 34
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 1]
+No edge 34
+No edge 33
+But it's bad
+We moved to  blocks.0.attn.hook_k[:, :, 0]
+No edge 33
+No edge 32
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 7]
+No edge 32
+No edge 31
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 6]
+No edge 31
+No edge 30
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 5]
+No edge 30
+No edge 29
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 4]
+No edge 29
+No edge 28
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 3]
+No edge 28
+No edge 27
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 2]
+No edge 27
+No edge 26
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 1]
+No edge 26
+No edge 25
+But it's bad
+We moved to  blocks.0.attn.hook_q[:, :, 0]
+No edge 25
+No edge 24
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 7]
+No edge 24
+No edge 23
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 6]
+No edge 23
+No edge 22
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 5]
+No edge 22
+No edge 21
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 4]
+No edge 21
+No edge 20
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 3]
+No edge 20
+No edge 19
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 2]
+No edge 19
+No edge 18
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 1]
+No edge 18
+No edge 17
+But it's bad
+We moved to  blocks.0.hook_v_input[:, :, 0]
+No edge 17
+No edge 16
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 7]
+No edge 16
+No edge 15
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 6]
+No edge 15
+No edge 14
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 5]
+No edge 14
+No edge 13
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 4]
+No edge 13
+No edge 12
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 3]
+No edge 12
+No edge 11
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 2]
+No edge 11
+No edge 10
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 1]
+No edge 10
+No edge 9
+But it's bad
+We moved to  blocks.0.hook_k_input[:, :, 0]
+No edge 9
+No edge 8
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 7]
+No edge 8
+No edge 7
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 6]
+No edge 7
+No edge 6
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 5]
+No edge 6
+No edge 5
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 4]
+No edge 5
+No edge 4
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 3]
+No edge 4
+No edge 3
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 2]
+No edge 3
+No edge 2
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 1]
+No edge 2
+No edge 1
+But it's bad
+We moved to  blocks.0.hook_q_input[:, :, 0]
+No edge 1
+No edge 0
+But it's bad
+We moved to  blocks.0.hook_resid_pre[:]
+No edge 0
+No edge 0
+No edge 0
+0 --------------------------------------------------
+No edge 0
+0
+No edge 0
+New metric: 13.693520545959473
+We moved to  None
+No edge 0
+1 --------------------------------------------------
+No edge 0
+0
+ok: [77, 78, 79, 80, 81, 82, 83]
+Finished Wed Oct 14 08:36:58 AM +07 2026

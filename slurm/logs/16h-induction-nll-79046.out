@@ -1,0 +1,92 @@
+Job 79046 on gpu02; metric=nll; started Sat Oct 17 10:31:19 AM +07 2026
+Sat Oct 17 10:31:19 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 555.42.02              Driver Version: 555.42.02      CUDA Version: 12.5     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-PCIE-40GB          Off |   00000000:13:00.0 Off |                    0 |
+| N/A   31C    P0             34W /  250W |       1MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Traceback (most recent call last):
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1140, in init
+    wi.setup(kwargs)
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 171, in setup
+    self._wl = wandb_setup.setup(settings=setup_settings)
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/wandb_setup.py", line 327, in setup
+    ret = _setup(settings=settings)
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/wandb_setup.py", line 320, in _setup
+    wl = _WandbSetup(settings=settings)
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/wandb_setup.py", line 303, in __init__
+    _WandbSetup._instance = _WandbSetup__WandbSetup(settings=settings, pid=pid)
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/wandb_setup.py", line 114, in __init__
+    self._setup()
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/wandb_setup.py", line 250, in _setup
+    self._setup_manager()
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/wandb_setup.py", line 277, in _setup_manager
+    self._manager = wandb_manager._Manager(settings=self._settings)
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/wandb_manager.py", line 146, in __init__
+    self._service.start()
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/service/service.py", line 199, in start
+    self._launch_server()
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/service/service.py", line 193, in _launch_server
+    sentry_reraise(e, delay=True)
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/util.py", line 214, in sentry_reraise
+    raise exc.with_traceback(sys.exc_info()[2])
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/service/service.py", line 191, in _launch_server
+    self._wait_for_ports(fname, proc=internal_proc)
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/service/service.py", line 141, in _wait_for_ports
+    raise ServiceStartTimeoutError(
+wandb.sdk.service.service.ServiceStartTimeoutError: Timed out waiting for wandb service to start after 30.0 seconds. Try increasing the timeout with the `_service_wait` setting.
+wandb: ERROR Abnormal program exit
+Traceback (most recent call last):
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1140, in init
+    wi.setup(kwargs)
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 171, in setup
+    self._wl = wandb_setup.setup(settings=setup_settings)
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/wandb_setup.py", line 327, in setup
+    ret = _setup(settings=settings)
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/wandb_setup.py", line 320, in _setup
+    wl = _WandbSetup(settings=settings)
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/wandb_setup.py", line 303, in __init__
+    _WandbSetup._instance = _WandbSetup__WandbSetup(settings=settings, pid=pid)
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/wandb_setup.py", line 114, in __init__
+    self._setup()
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/wandb_setup.py", line 250, in _setup
+    self._setup_manager()
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/wandb_setup.py", line 277, in _setup_manager
+    self._manager = wandb_manager._Manager(settings=self._settings)
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/wandb_manager.py", line 146, in __init__
+    self._service.start()
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/service/service.py", line 199, in start
+    self._launch_server()
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/service/service.py", line 193, in _launch_server
+    sentry_reraise(e, delay=True)
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/util.py", line 214, in sentry_reraise
+    raise exc.with_traceback(sys.exc_info()[2])
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/service/service.py", line 191, in _launch_server
+    self._wait_for_ports(fname, proc=internal_proc)
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/service/service.py", line 141, in _wait_for_ports
+    raise ServiceStartTimeoutError(
+wandb.sdk.service.service.ServiceStartTimeoutError: Timed out waiting for wandb service to start after 30.0 seconds. Try increasing the timeout with the `_service_wait` setting.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/lhbac29/auto-circuit/experiments/launch_sixteen_heads.py", line 101, in <module>
+    wandb.init(
+  File "/media/lhbac29/miniconda3/envs/acdc/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1181, in init
+    raise Exception("problem") from error_seen
+Exception: problem
+Finished Sat Oct 17 10:34:07 AM +07 2026

@@ -2,10 +2,10 @@
 #SBATCH --job-name=16h-induction
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=8
-#SBATCH --mem=32G
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=64G
 #SBATCH --gres=gpu:1
-#SBATCH --time=12:00:00
+#SBATCH --time=48:00:00
 #SBATCH --requeue
 #SBATCH --array=0-1
 

@@ -33,6 +33,7 @@ env
 dist/
 docs/build
 .coverage
+slurm/env.sh
 
 # don't really know what these are..
 .hypothesis/
