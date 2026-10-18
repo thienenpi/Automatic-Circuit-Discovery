@@ -10,7 +10,6 @@ slurm/
 ├── env.sh                       # you create this: W&B credentials (gitignored)
 ├── jobs/
 │   ├── acdc_induction.slurm         # ACDC, 84 runs, CPU, ~48h
-│   ├── acdc_induction_resume.slurm  # finish an ACDC sweep that hit the walltime
 │   ├── sp_induction.slurm           # Subnetwork Probing, 11-task array, GPU
 │   ├── 16h_induction.slurm          # HISP baseline, 2-task array (kl_div, nll), GPU
 │   └── plots.slurm                  # W&B runs -> JSON -> figures
